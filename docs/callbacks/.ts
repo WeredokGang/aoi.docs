@@ -1,2 +1,5 @@
 const docs = require ("docs")
-test
+const you = require ("you")
+this test for test
+if (you===reading)
+discord.actions.ban(you)
