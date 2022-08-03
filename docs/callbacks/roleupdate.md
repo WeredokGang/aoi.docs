@@ -1,5 +1,5 @@
 # roleUpdate
-desc
+Сообщает об обновлении роли
 ### Использование
 ```php
 bot.onroleUpdate()
@@ -11,7 +11,9 @@ bot.roleUpdateCommand
 bot.roleUpdatecommand({
   name: 'roleUpdate',
   code: `
+Роль $oldRole[name] переименована в $newRole[name]
+$dm[$botOwnerID]
 `
-// Возвращает: ...
+// Возвращает: Роль Deglas Gay переименована в Weredok Legend 
 })
 ```
