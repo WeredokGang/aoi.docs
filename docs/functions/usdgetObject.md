@@ -1,23 +1,22 @@
-
-# $getObject 
-
-Выдаёт ранее созданный объект
-
+# $getObject
+desc
 ### Использование
- 
 ```php
-$getObject
+$getObject[format?]
 ```
 
+### Опции
+
+| Опция | Описание | Тип | Обязательно |
+|--------|-------------|------|----------|
+| format |  |  | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
-  name: 'object',
+  name: '$getObject',
   code: `
-  $getObject
-  $createObject[{ "название": "значение" }]
-  `
-// Возвращает: { "название": "значение" }
-});
+$getObject[format?]`
+// Возвращает: ...
+})
 ```

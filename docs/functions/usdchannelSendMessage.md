@@ -1,30 +1,24 @@
 # $channelSendMessage
-
-Отправить сообщение от имени бота в указанный канал.
-
+desc
 ### Использование
- 
 ```php
-$channelSendMessage[канал;сообщение;вернуть айди]
+$channelSendMessage[channelId;message;returnId?]
 ```
 
 ### Опции
 
-
-| Опция | Описание | Тип | Обязательно? |
+| Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| канал | индетификатор текстового канала | канал | да |
-| сообщение | контент сообщения | текст | да |
-| вернуть айди | бот отправит айди сообщения которое он написал | число | нет | 
-
-
-## Пример:
+| channelId |  |  | Да | 
+| message |  |  | Да | 
+| returnId |  |  | Нет |
+## Пример(ы)
 
 ```javascript
 bot.command({
-  name: 'channel-send-message',
+  name: '$channelSendMessage',
   code: `
-  $channelSendMessage[$channelid;$message]
-  `
-});
+$channelSendMessage[channelId;message;returnId?]`
+// Возвращает: ...
+})
 ```
