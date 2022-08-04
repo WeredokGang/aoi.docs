@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$isSelfMuted[userId?;guildId?]
+$isSelfMuted[userId?;сервер?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $isSelfMuted[userId?;guildId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | userId |  |  | Нет | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$isSelfMuted',
   code: `
-$isSelfMuted[userId?;guildId?]`
+$isSelfMuted[userId?;сервер?]`
 // Возвращает: ...
 })
 ```

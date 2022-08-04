@@ -2,21 +2,21 @@
 desc
 ### Использование
 ```php
-$serverMFALevel[guildId?]
+$serverMFALevel[сервер?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет |  
+| сервер |  |  | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$serverMFALevel',
   code: `
-$serverMFALevel[guildId?]`
+$serverMFALevel[сервер?]`
 // Возвращает: ...
 })
 ```

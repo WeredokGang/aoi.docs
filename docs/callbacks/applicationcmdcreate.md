@@ -10,7 +10,7 @@ bot.applicationCmdCreateCommand
 ```javascript
 bot.applicationCmdCreatecommand({
   name: 'applicationCmdCreate',
-  code: `$sendDm[Была создана новая слэш-команда на сервере $serverName ($guildid);$botownerid]
+  code: `$sendDm[Была создана новая слэш-команда на сервере $serverName ($guildID);$botownerid]
 `
 })
 ```

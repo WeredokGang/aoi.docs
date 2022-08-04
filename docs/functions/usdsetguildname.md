@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$setGuildName[name;guildId?]
+$setGuildName[name;сервер?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $setGuildName[name;guildId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | name |  |  | Да | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$setGuildName',
   code: `
-$setGuildName[name;guildId?]`
+$setGuildName[name;сервер?]`
 // Возвращает: ...
 })
 ```

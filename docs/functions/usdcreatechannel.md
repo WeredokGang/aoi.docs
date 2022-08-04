@@ -20,7 +20,7 @@ $createChannel[сервер;название;тип;вернутьАйди?;ка
 bot.command({
   name: '$createChannel',
   code: `
-$createChannel[$guildid;$channelName;Text;yes;$channelCategoryId]`
+$createChannel[$guildID;$channelName;Text;yes;$channelCategoryId]`
 // Возвращает: 987810017727720
 })
 ```

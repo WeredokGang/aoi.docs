@@ -10,7 +10,7 @@ bot.applicationCmdDeleteCommand
 ```javascript
 bot.applicationCmdDeletecommand({
   name: 'applicationCmdDelete',
-  code: `$sendDm[Была удалена слэш-команда на сервере $serverName ($guildid);$botownerid]
+  code: `$sendDm[Была удалена слэш-команда на сервере $serverName ($guildID);$botownerid]
 `
 })
 ```

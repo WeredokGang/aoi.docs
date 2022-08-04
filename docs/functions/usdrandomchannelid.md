@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$randomChannelID[guildId?;type?]
+$randomChannelID[сервер?;type?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 | type |  |  | Нет | 
 ## Пример(ы)
 
@@ -17,7 +17,7 @@ $randomChannelID[guildId?;type?]
 bot.command({
   name: '$randomChannelID',
   code: `
-$randomChannelID[guildId?;type?]`
+$randomChannelID[сервер?;type?]`
 // Возвращает: ...
 })
 ```

@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$findServerChannel[channelResolver;returnSelf?;guildId?]
+$findServerChannel[channelResolver;returnSelf?;сервер?]
 ```
 
 ### Опции
@@ -11,14 +11,14 @@ $findServerChannel[channelResolver;returnSelf?;guildId?]
 |--------|-------------|------|----------|
 | channelResolver |  |  | Да | 
 | returnSelf |  |  | Нет | 
-| guildId |  |  | Нет |
+| сервер |  |  | Нет |
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$findServerChannel',
   code: `
-$findServerChannel[channelResolver;returnSelf?;guildId?]`
+$findServerChannel[channelResolver;returnSelf?;сервер?]`
 // Возвращает: ...
 })
 ```

@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$deleteRoles[guildId;...roles]
+$deleteRoles[сервер;...roles]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Да | 
+| сервер |  |  | Да | 
 | ...roles |  |  | Да | 
 ## Пример(ы)
 
@@ -17,7 +17,7 @@ $deleteRoles[guildId;...roles]
 bot.command({
   name: '$deleteRoles',
   code: `
-$deleteRoles[guildId;...roles]`
+$deleteRoles[сервер;...roles]`
 // Возвращает: ...
 })
 ```

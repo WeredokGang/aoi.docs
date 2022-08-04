@@ -16,7 +16,7 @@ $banCount[сервер?]
 bot.command({
   name: '$banCount',
   code: `
-$banCount[$guildid]`
+$banCount[$guildID]`
 // Возвращает: 57
 })
 ```

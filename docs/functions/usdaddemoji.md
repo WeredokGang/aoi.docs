@@ -21,7 +21,7 @@ $addEmoji[сервер;ссылка;название;вернуть?;причи�
 bot.command({
   название: '$addEmoji',
   code: `
-$addEmoji[$guildID;https://cdn.discordapp.com/emojis/973277149945544734;715;yes;$userназвание;$highestrole[$guildid;$authorid]]`
+$addEmoji[$guildID;https://cdn.discordapp.com/emojis/973277149945544734;715;yes;$userназвание;$highestrole[$guildID;$authorid]]`
 // Возвращает: :715:
 })
 ```

@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$getRoleColor[roleId;guildId?]
+$getRoleColor[roleId;сервер?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $getRoleColor[roleId;guildId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | roleId |  |  | Да | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$getRoleColor',
   code: `
-$getRoleColor[roleId;guildId?]`
+$getRoleColor[roleId;сервер?]`
 // Возвращает: ...
 })
 ```

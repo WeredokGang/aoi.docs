@@ -2,21 +2,21 @@
 desc
 ### Использование
 ```php
-$randomUserID[guildId?]
+$randomUserID[сервер?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет |  
+| сервер |  |  | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$randomUserID',
   code: `
-$randomUserID[guildId?]`
+$randomUserID[сервер?]`
 // Возвращает: ...
 })
 ```

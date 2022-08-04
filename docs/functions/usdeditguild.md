@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$editGuild[guildId;...guildDatas]
+$editGuild[сервер;...guildDatas]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Да | 
+| сервер |  |  | Да | 
 | ...guildDatas |  |  | Да | 
 ## Пример(ы)
 
@@ -17,7 +17,7 @@ $editGuild[guildId;...guildDatas]
 bot.command({
   name: '$editGuild',
   code: `
-$editGuild[guildId;...guildDatas]`
+$editGuild[сервер;...guildDatas]`
 // Возвращает: ...
 })
 ```

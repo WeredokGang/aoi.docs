@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$memberAvatar[guildId?;userId?;size?;dynamic?;format;]
+$memberAvatar[сервер?;userId?;size?;dynamic?;format;]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 | userId |  |  | Нет | 
 | size |  |  | Нет |
 | dynamic |  |  | Нет |
@@ -21,7 +21,7 @@ $memberAvatar[guildId?;userId?;size?;dynamic?;format;]
 bot.command({
   name: '$memberAvatar',
   code: `
-$memberAvatar[guildId?;userId?;size?;dynamic?;format;]`
+$memberAvatar[сервер?;userId?;size?;dynamic?;format;]`
 // Возвращает: ...
 })
 ```

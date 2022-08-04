@@ -2,21 +2,21 @@
 desc
 ### Использование
 ```php
-$serverFeatures[guildId?]
+$serverFeatures[сервер?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет |  
+| сервер |  |  | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$serverFeatures',
   code: `
-$serverFeatures[guildId?]`
+$serverFeatures[сервер?]`
 // Возвращает: ...
 })
 ```

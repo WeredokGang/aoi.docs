@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$isMuted[userId?;guildId?]
+$isMuted[userId?;сервер?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $isMuted[userId?;guildId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | userId |  |  | Нет | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$isMuted',
   code: `
-$isMuted[userId?;guildId?]`
+$isMuted[userId?;сервер?]`
 // Возвращает: ...
 })
 ```

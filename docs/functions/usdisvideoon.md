@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$isVideoOn[userId?;guildId?]
+$isVideoOn[userId?;сервер?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $isVideoOn[userId?;guildId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | userId |  |  | Нет | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$isVideoOn',
   code: `
-$isVideoOn[userId?;guildId?]`
+$isVideoOn[userId?;сервер?]`
 // Возвращает: ...
 })
 ```

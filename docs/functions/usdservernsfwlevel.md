@@ -2,21 +2,21 @@
 desc
 ### Использование
 ```php
-$serverNSFWLevel[guildId?]
+$serverNSFWLevel[сервер?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет |  
+| сервер |  |  | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$serverNSFWLevel',
   code: `
-$serverNSFWLevel[guildId?]`
+$serverNSFWLevel[сервер?]`
 // Возвращает: ...
 })
 ```

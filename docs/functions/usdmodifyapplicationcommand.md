@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$modifyApplicationCommand[guildId;id;...Datas]
+$modifyApplicationCommand[сервер;id;...Datas]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Да | 
+| сервер |  |  | Да | 
 | id |  |  | Да | 
 | ...Datas |  |  | Да |
 ## Пример(ы)
@@ -18,7 +18,7 @@ $modifyApplicationCommand[guildId;id;...Datas]
 bot.command({
   name: '$modifyApplicationCommand',
   code: `
-$modifyApplicationCommand[guildId;id;...Datas]`
+$modifyApplicationCommand[сервер;id;...Datas]`
 // Возвращает: ...
 })
 ```

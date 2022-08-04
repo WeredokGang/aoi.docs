@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$hoistedRole[userId?;guildId?;option?]
+$hoistedRole[userId?;сервер?;option?]
 ```
 
 ### Опции
@@ -10,7 +10,7 @@ $hoistedRole[userId?;guildId?;option?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | userId |  |  | Нет | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 | option |  |  | Нет |
 ## Пример(ы)
 
@@ -18,7 +18,7 @@ $hoistedRole[userId?;guildId?;option?]
 bot.command({
   name: '$hoistedRole',
   code: `
-$hoistedRole[userId?;guildId?;option?]`
+$hoistedRole[userId?;сервер?;option?]`
 // Возвращает: ...
 })
 ```

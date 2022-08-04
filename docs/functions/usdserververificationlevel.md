@@ -2,21 +2,21 @@
 desc
 ### Использование
 ```php
-$serverVerificationLevel[guildId?]
+$serverVerificationLevel[сервер?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет |  
+| сервер |  |  | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$serverVerificationLevel',
   code: `
-$serverVerificationLevel[guildId?]`
+$serverVerificationLevel[сервер?]`
 // Возвращает: ...
 })
 ```

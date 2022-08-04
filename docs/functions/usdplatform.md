@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$platform[userId?;guildId?;sep?;']
+$platform[userId?;сервер?;sep?;']
 ```
 
 ### Опции
@@ -10,7 +10,7 @@ $platform[userId?;guildId?;sep?;']
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | userId |  |  | Нет | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 | sep |  |  | Нет |
 | ' |  |  | Да |
 ## Пример(ы)
@@ -19,7 +19,7 @@ $platform[userId?;guildId?;sep?;']
 bot.command({
   name: '$platform',
   code: `
-$platform[userId?;guildId?;sep?;']`
+$platform[userId?;сервер?;sep?;']`
 // Возвращает: ...
 })
 ```

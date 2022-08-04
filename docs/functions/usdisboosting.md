@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$isBoosting[userId?;guildId?]
+$isBoosting[userId?;сервер?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $isBoosting[userId?;guildId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | userId |  |  | Нет | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$isBoosting',
   code: `
-$isBoosting[userId?;guildId?]`
+$isBoosting[userId?;сервер?]`
 // Возвращает: ...
 })
 ```

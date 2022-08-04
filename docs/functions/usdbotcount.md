@@ -16,7 +16,7 @@ $botCount[сервер?]
 bot.command({
   name: '$botCount',
   code: `
-$botCount[$guildid]`
+$botCount[$guildID]`
 // Возвращает: 21
 })
 ```

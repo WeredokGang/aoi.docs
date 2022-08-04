@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$memberJoinedDate[userId?;guildId?]
+$memberJoinedDate[userId?;сервер?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $memberJoinedDate[userId?;guildId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | userId |  |  | Нет | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$memberJoinedDate',
   code: `
-$memberJoinedDate[userId?;guildId?]`
+$memberJoinedDate[userId?;сервер?]`
 // Возвращает: ...
 })
 ```

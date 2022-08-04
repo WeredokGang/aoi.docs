@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$setApplicationCommandPermissions[guildId?;id;...perms]
+$setApplicationCommandPermissions[сервер?;id;...perms]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 | id |  |  | Да | 
 | ...perms |  |  | Да |
 ## Пример(ы)
@@ -18,7 +18,7 @@ $setApplicationCommandPermissions[guildId?;id;...perms]
 bot.command({
   name: '$setApplicationCommandPermissions',
   code: `
-$setApplicationCommandPermissions[guildId?;id;...perms]`
+$setApplicationCommandPermissions[сервер?;id;...perms]`
 // Возвращает: ...
 })
 ```

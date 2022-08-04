@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$modifyEmoji[guildId;emojiId;name;...roles]
+$modifyEmoji[сервер;emojiId;name;...roles]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Да | 
+| сервер |  |  | Да | 
 | emojiId |  |  | Да | 
 | name |  |  | Да |
 | ...roles |  |  | Да |
@@ -19,7 +19,7 @@ $modifyEmoji[guildId;emojiId;name;...roles]
 bot.command({
   name: '$modifyEmoji',
   code: `
-$modifyEmoji[guildId;emojiId;name;...roles]`
+$modifyEmoji[сервер;emojiId;name;...roles]`
 // Возвращает: ...
 })
 ```

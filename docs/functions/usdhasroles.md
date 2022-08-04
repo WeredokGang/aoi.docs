@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$hasRoles[guildId;userId;...roles]
+$hasRoles[сервер;userId;...roles]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Да | 
+| сервер |  |  | Да | 
 | userId |  |  | Да | 
 | ...roles |  |  | Да |
 ## Пример(ы)
@@ -18,7 +18,7 @@ $hasRoles[guildId;userId;...roles]
 bot.command({
   name: '$hasRoles',
   code: `
-$hasRoles[guildId;userId;...roles]`
+$hasRoles[сервер;userId;...roles]`
 // Возвращает: ...
 })
 ```

@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$forEachRole[guildId?;time?;awaitData;...cmds]
+$forEachRole[сервер?;time?;awaitData;...cmds]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 | time |  |  | Нет | 
 | awaitData |  |  | Да |
 | ...cmds |  |  | Да |
@@ -19,7 +19,7 @@ $forEachRole[guildId?;time?;awaitData;...cmds]
 bot.command({
   name: '$forEachRole',
   code: `
-$forEachRole[guildId?;time?;awaitData;...cmds]`
+$forEachRole[сервер?;time?;awaitData;...cmds]`
 // Возвращает: ...
 })
 ```

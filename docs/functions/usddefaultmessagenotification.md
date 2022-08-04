@@ -2,21 +2,21 @@
 desc
 ### Использование
 ```php
-$defaultMessageNotification[guildId?]
+$defaultMessageNotification[сервер?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет |  
+| сервер |  |  | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$defaultMessageNotification',
   code: `
-$defaultMessageNotification[guildId?]`
+$defaultMessageNotification[сервер?]`
 // Возвращает: ...
 })
 ```

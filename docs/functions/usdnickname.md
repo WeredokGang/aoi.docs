@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$nickname[userId?;guildId?;returnUser?]
+$nickname[userId?;сервер?;returnUser?]
 ```
 
 ### Опции
@@ -10,7 +10,7 @@ $nickname[userId?;guildId?;returnUser?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | userId |  |  | Нет | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 | returnUser |  |  | Нет |
 ## Пример(ы)
 
@@ -18,7 +18,7 @@ $nickname[userId?;guildId?;returnUser?]
 bot.command({
   name: '$nickname',
   code: `
-$nickname[userId?;guildId?;returnUser?]`
+$nickname[userId?;сервер?;returnUser?]`
 // Возвращает: ...
 })
 ```

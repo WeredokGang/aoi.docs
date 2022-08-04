@@ -17,7 +17,7 @@ $createServerInvite[сервер?;...опции]
 bot.command({
   name: '$createServerInvite',
   code: `
-$createServerInvite[$guildId;{
+$createServerInvite[$guildID;{
   "maxUses": "10"
   }]`
 // Возвращает: https://discord.gg/KpF0LPBhj2XD

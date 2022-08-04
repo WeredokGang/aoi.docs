@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$serverEmojiExists[emoji;guildId?]
+$serverEmojiExists[emoji;сервер?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $serverEmojiExists[emoji;guildId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | emoji |  |  | Да | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$serverEmojiExists',
   code: `
-$serverEmojiExists[emoji;guildId?]`
+$serverEmojiExists[emoji;сервер?]`
 // Возвращает: ...
 })
 ```

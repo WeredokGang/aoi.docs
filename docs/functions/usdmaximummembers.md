@@ -2,21 +2,21 @@
 desc
 ### Использование
 ```php
-$maximumMembers[guildId?]
+$maximumMembers[сервер?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет |  
+| сервер |  |  | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$maximumMembers',
   code: `
-$maximumMembers[guildId?]`
+$maximumMembers[сервер?]`
 // Возвращает: ...
 })
 ```

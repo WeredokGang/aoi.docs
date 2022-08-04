@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$lowestRole[userId?;guildId?]
+$lowestRole[userId?;сервер?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $lowestRole[userId?;guildId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | userId |  |  | Нет | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$lowestRole',
   code: `
-$lowestRole[userId?;guildId?]`
+$lowestRole[userId?;сервер?]`
 // Возвращает: ...
 })
 ```

@@ -2,21 +2,21 @@
 desc
 ### Использование
 ```php
-$serverExists[guildId]
+$serverExists[сервер]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Да |  
+| сервер |  |  | Да |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$serverExists',
   code: `
-$serverExists[guildId]`
+$serverExists[сервер]`
 // Возвращает: ...
 })
 ```

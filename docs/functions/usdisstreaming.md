@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$isStreaming[userId?;guildId?]
+$isStreaming[userId?;сервер?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $isStreaming[userId?;guildId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | userId |  |  | Нет | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$isStreaming',
   code: `
-$isStreaming[userId?;guildId?]`
+$isStreaming[userId?;сервер?]`
 // Возвращает: ...
 })
 ```

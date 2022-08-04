@@ -23,7 +23,7 @@ $createRole[сервер;вернутьАйди?;название;цвет;от�
 bot.command({
   название: '$createRole',
   code: `
-$createRole[$guildid;yes;$username;ff00ff;yes;15;yes;admin;manageserver]`
+$createRole[$guildID;yes;$username;ff00ff;yes;15;yes;admin;manageserver]`
 // Возвращает: 97872720101827210
 })
 ```

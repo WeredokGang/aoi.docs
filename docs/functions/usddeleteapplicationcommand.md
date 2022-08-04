@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$deleteApplicationCommand[guildId;id]
+$deleteApplicationCommand[сервер;id]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Да | 
+| сервер |  |  | Да | 
 | id |  |  | Да | 
 ## Пример(ы)
 
@@ -17,7 +17,7 @@ $deleteApplicationCommand[guildId;id]
 bot.command({
   name: '$deleteApplicationCommand',
   code: `
-$deleteApplicationCommand[guildId;id]`
+$deleteApplicationCommand[сервер;id]`
 // Возвращает: ...
 })
 ```

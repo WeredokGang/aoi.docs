@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$memberExists[userId;guildId?]
+$memberExists[userId;сервер?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $memberExists[userId;guildId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | userId |  |  | Да | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$memberExists',
   code: `
-$memberExists[userId;guildId?]`
+$memberExists[userId;сервер?]`
 // Возвращает: ...
 })
 ```

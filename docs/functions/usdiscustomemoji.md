@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$isCustomEmoji[emoji;guildId?]
+$isCustomEmoji[emoji;сервер?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $isCustomEmoji[emoji;guildId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | emoji |  |  | Да | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$isCustomEmoji',
   code: `
-$isCustomEmoji[emoji;guildId?]`
+$isCustomEmoji[emoji;сервер?]`
 // Возвращает: ...
 })
 ```

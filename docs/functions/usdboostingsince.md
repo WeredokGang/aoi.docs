@@ -18,7 +18,7 @@ $boostingSince[сервер?;пользователь?;формат?]
 bot.command({
   name: '$boostingSince',
   code: `
-$boostingSince[$guildid;$authorID;ms]`
+$boostingSince[$guildID;$authorID;ms]`
 // Возвращает: 1666844
 })
 ```

@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$rolePerms[roleId;sep?;';guildId?]
+$rolePerms[roleId;sep?;';сервер?]
 ```
 
 ### Опции
@@ -12,14 +12,14 @@ $rolePerms[roleId;sep?;';guildId?]
 | roleId |  |  | Да | 
 | sep |  |  | Нет | 
 | ' |  |  | Да |
-| guildId |  |  | Нет |
+| сервер |  |  | Нет |
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$rolePerms',
   code: `
-$rolePerms[roleId;sep?;';guildId?]`
+$rolePerms[roleId;sep?;';сервер?]`
 // Возвращает: ...
 })
 ```
