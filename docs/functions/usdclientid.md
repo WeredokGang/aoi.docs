@@ -1,8 +1,8 @@
 # $clientID
-desc
+Возвращает айди клиента
 ### Использование
 ```php
-$clientIDnull
+$clientID
 ```
 
 ## Пример(ы)
@@ -11,7 +11,7 @@ $clientIDnull
 bot.command({
   name: '$clientID',
   code: `
-$clientIDnull`
-// Возвращает: ...
+$clientID`
+// Возвращает: 234701973778920
 })
 ```

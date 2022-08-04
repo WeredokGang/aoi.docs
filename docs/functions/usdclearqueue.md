@@ -1,8 +1,8 @@
 # $clearQueue
-desc
+Очищает очередь треков
 ### Использование
 ```php
-$clearQueuenull
+$clearQueue
 ```
 
 ## Пример(ы)
@@ -11,7 +11,6 @@ $clearQueuenull
 bot.command({
   name: '$clearQueue',
   code: `
-$clearQueuenull`
-// Возвращает: ...
+$clearQueuen`
 })
 ```

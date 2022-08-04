@@ -1,24 +1,24 @@
 # $channelSendMessage
-desc
+Отправляет сообщение в указанный канал.
 ### Использование
 ```php
-$channelSendMessage[channelId;message;returnId?]
+$channelSendMessage[канал;сообщение;вернутьАйди?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| channelId |  |  | Да | 
-| message |  |  | Да | 
-| returnId |  |  | Нет |
+| канал | канал, в который нужно отправить сообщение | айди | Да | 
+| сообщение | сообщение, которое нужно отправить | текст | Да | 
+| вернутьАйди | вернуть ли айди сообщения, которое отправится функцией | логическое выражение | Нет |
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$channelSendMessage',
   code: `
-$channelSendMessage[channelId;message;returnId?]`
-// Возвращает: ...
+$channelSendMessage[$channelID;Hello!;yes]`
+// Возвращает: 1000980027619770
 })
 ```

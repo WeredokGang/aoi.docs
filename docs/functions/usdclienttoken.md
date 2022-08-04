@@ -1,8 +1,8 @@
 # $clientToken
-desc
+Возвращает токен клиента
 ### Использование
 ```php
-$clientTokennull
+$clientToken
 ```
 
 ## Пример(ы)
@@ -11,7 +11,7 @@ $clientTokennull
 bot.command({
   name: '$clientToken',
   code: `
-$clientTokennull`
-// Возвращает: ...
+$clientToken`
+// Возвращает: Вы думали тут будет токен клиента моего бота? 
 })
 ```
