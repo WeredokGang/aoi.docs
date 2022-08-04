@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$sendTTS[channelId;message;returnId?]
+$sendTTS[канал;message;returnId?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| channelId |  |  | Да | 
+| канал |  |  | Да | 
 | message |  |  | Да | 
 | returnId |  |  | Нет |
 ## Пример(ы)
@@ -18,7 +18,7 @@ $sendTTS[channelId;message;returnId?]
 bot.command({
   name: '$sendTTS',
   code: `
-$sendTTS[channelId;message;returnId?]`
+$sendTTS[канал;message;returnId?]`
 // Возвращает: ...
 })
 ```

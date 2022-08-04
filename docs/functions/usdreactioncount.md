@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$reactionCount[channelId;messageId;emojiResolver]
+$reactionCount[канал;messageId;emojiResolver]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| channelId |  |  | Да | 
+| канал |  |  | Да | 
 | messageId |  |  | Да | 
 | emojiResolver |  |  | Да |
 ## Пример(ы)
@@ -18,7 +18,7 @@ $reactionCount[channelId;messageId;emojiResolver]
 bot.command({
   name: '$reactionCount',
   code: `
-$reactionCount[channelId;messageId;emojiResolver]`
+$reactionCount[канал;messageId;emojiResolver]`
 // Возвращает: ...
 })
 ```

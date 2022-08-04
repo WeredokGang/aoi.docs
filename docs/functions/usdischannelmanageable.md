@@ -2,21 +2,21 @@
 desc
 ### Использование
 ```php
-$isChannelManageable[channelId?]
+$isChannelManageable[канал?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| channelId |  |  | Нет |  
+| канал |  |  | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$isChannelManageable',
   code: `
-$isChannelManageable[channelId?]`
+$isChannelManageable[канал?]`
 // Возвращает: ...
 })
 ```

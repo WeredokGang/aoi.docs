@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$getEmbed[channelId?;messageId?;index?;option?]
+$getEmbed[канал?;messageId?;index?;option?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| channelId |  |  | Нет | 
+| канал |  |  | Нет | 
 | messageId |  |  | Нет | 
 | index |  |  | Нет |
 | option |  |  | Нет |
@@ -19,7 +19,7 @@ $getEmbed[channelId?;messageId?;index?;option?]
 bot.command({
   name: '$getEmbed',
   code: `
-$getEmbed[channelId?;messageId?;index?;option?]`
+$getEmbed[канал?;messageId?;index?;option?]`
 // Возвращает: ...
 })
 ```

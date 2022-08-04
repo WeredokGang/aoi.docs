@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$leaveThread[channelId;threadId]
+$leaveThread[канал;threadId]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| channelId |  |  | Да | 
+| канал |  |  | Да | 
 | threadId |  |  | Да | 
 ## Пример(ы)
 
@@ -17,7 +17,7 @@ $leaveThread[channelId;threadId]
 bot.command({
   name: '$leaveThread',
   code: `
-$leaveThread[channelId;threadId]`
+$leaveThread[канал;threadId]`
 // Возвращает: ...
 })
 ```

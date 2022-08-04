@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$removeThreadMember[channelId;threadId;userId;reason]
+$removeThreadMember[канал;threadId;userId;reason]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| channelId |  |  | Да | 
+| канал |  |  | Да | 
 | threadId |  |  | Да | 
 | userId |  |  | Да |
 | reason |  |  | Да |
@@ -19,7 +19,7 @@ $removeThreadMember[channelId;threadId;userId;reason]
 bot.command({
   name: '$removeThreadMember',
   code: `
-$removeThreadMember[channelId;threadId;userId;reason]`
+$removeThreadMember[канал;threadId;userId;reason]`
 // Возвращает: ...
 })
 ```

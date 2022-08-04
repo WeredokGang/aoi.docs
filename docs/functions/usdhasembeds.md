@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$hasEmbeds[messageId?;channelId?]
+$hasEmbeds[messageId?;канал?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $hasEmbeds[messageId?;channelId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | messageId |  |  | Нет | 
-| channelId |  |  | Нет | 
+| канал |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$hasEmbeds',
   code: `
-$hasEmbeds[messageId?;channelId?]`
+$hasEmbeds[messageId?;канал?]`
 // Возвращает: ...
 })
 ```

@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$messageWebhookId[messageId?;channelId?]
+$messageWebhookId[messageId?;канал?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $messageWebhookId[messageId?;channelId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | messageId |  |  | Нет | 
-| channelId |  |  | Нет | 
+| канал |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$messageWebhookId',
   code: `
-$messageWebhookId[messageId?;channelId?]`
+$messageWebhookId[messageId?;канал?]`
 // Возвращает: ...
 })
 ```

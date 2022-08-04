@@ -1,22 +1,22 @@
 # $createObject
-desc
+Создаёт JSON-Объект для подальшего взаимодействия с ним
 ### Использование
 ```php
-$createObject[data]
+$createObject[данные]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| data |  |  | Да |  
+| данные | данные для объекта | объект | Да |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$createObject',
-  code: `
-$createObject[data]`
-// Возвращает: ...
+  code: `$getObjectProperty[hi]
+$createObject[{ "hi": "bye" }]`
+// Возвращает: bye
 })
 ```

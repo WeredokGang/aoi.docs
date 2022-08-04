@@ -2,14 +2,14 @@
 Добавляет реакции к указанному сообщению
 ### Использование
 ```php
-$addMessageReactions[channelId;messageId;...reactions]
+$addMessageReactions[канал;messageId;...reactions]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| channelId |  |  | Да | 
+| канал |  |  | Да | 
 | messageId |  |  | Да | 
 | ...reactions |  |  | Да |
 ## Пример(ы)

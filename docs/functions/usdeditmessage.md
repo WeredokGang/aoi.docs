@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$editMessage[messageId;msg;channelId?]
+$editMessage[messageId;msg;канал?]
 ```
 
 ### Опции
@@ -11,14 +11,14 @@ $editMessage[messageId;msg;channelId?]
 |--------|-------------|------|----------|
 | messageId |  |  | Да | 
 | msg |  |  | Да | 
-| channelId |  |  | Нет |
+| канал |  |  | Нет |
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$editMessage',
   code: `
-$editMessage[messageId;msg;channelId?]`
+$editMessage[messageId;msg;канал?]`
 // Возвращает: ...
 })
 ```

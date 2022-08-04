@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$pinMessage[messageId?;channelId?]
+$pinMessage[messageId?;канал?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $pinMessage[messageId?;channelId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | messageId |  |  | Нет | 
-| channelId |  |  | Нет | 
+| канал |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$pinMessage',
   code: `
-$pinMessage[messageId?;channelId?]`
+$pinMessage[messageId?;канал?]`
 // Возвращает: ...
 })
 ```

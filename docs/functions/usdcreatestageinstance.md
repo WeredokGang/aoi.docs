@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$createStageInstance[channelId;topic;privacy?]
+$createStageInstance[канал;topic;privacy?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| channelId |  |  | Да | 
+| канал |  |  | Да | 
 | topic |  |  | Да | 
 | privacy |  |  | Нет |
 ## Пример(ы)
@@ -18,7 +18,7 @@ $createStageInstance[channelId;topic;privacy?]
 bot.command({
   name: '$createStageInstance',
   code: `
-$createStageInstance[channelId;topic;privacy?]`
+$createStageInstance[канал;topic;privacy?]`
 // Возвращает: ...
 })
 ```

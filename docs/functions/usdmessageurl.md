@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$messageURL[messageId?;channelId?]
+$messageURL[messageId?;канал?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $messageURL[messageId?;channelId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | messageId |  |  | Нет | 
-| channelId |  |  | Нет | 
+| канал |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$messageURL',
   code: `
-$messageURL[messageId?;channelId?]`
+$messageURL[messageId?;канал?]`
 // Возвращает: ...
 })
 ```

@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$msg[channelId?;messageId?;option?]
+$msg[канал?;messageId?;option?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| channelId |  |  | Нет | 
+| канал |  |  | Нет | 
 | messageId |  |  | Нет | 
 | option |  |  | Нет |
 ## Пример(ы)
@@ -18,7 +18,7 @@ $msg[channelId?;messageId?;option?]
 bot.command({
   name: '$msg',
   code: `
-$msg[channelId?;messageId?;option?]`
+$msg[канал?;messageId?;option?]`
 // Возвращает: ...
 })
 ```

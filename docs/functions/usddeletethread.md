@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$deleteThread[channelId;threadId;reason]
+$deleteThread[канал;threadId;reason]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| channelId |  |  | Да | 
+| канал |  |  | Да | 
 | threadId |  |  | Да | 
 | reason |  |  | Да |
 ## Пример(ы)
@@ -18,7 +18,7 @@ $deleteThread[channelId;threadId;reason]
 bot.command({
   name: '$deleteThread',
   code: `
-$deleteThread[channelId;threadId;reason]`
+$deleteThread[канал;threadId;reason]`
 // Возвращает: ...
 })
 ```

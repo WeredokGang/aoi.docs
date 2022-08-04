@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$createThread[channelId;name;archive?;type?;startMessage;returnId?]
+$createThread[канал;name;archive?;type?;startMessage;returnId?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| channelId |  |  | Да | 
+| канал |  |  | Да | 
 | name |  |  | Да | 
 | archive |  |  | Нет |
 | type |  |  | Нет |
@@ -21,7 +21,7 @@ $createThread[channelId;name;archive?;type?;startMessage;returnId?]
 bot.command({
   name: '$createThread',
   code: `
-$createThread[channelId;name;archive?;type?;startMessage;returnId?]`
+$createThread[канал;name;archive?;type?;startMessage;returnId?]`
 // Возвращает: ...
 })
 ```
