@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$reactionCollector[канал;messageId;userFilters;time;reactions;awaits;removeReaction?;awaitData?;endAwait;]
+$reactionCollector[канал;сообщение;userFilters;time;reactions;awaits;removeReaction?;awaitData?;endAwait;]
 ```
 
 ### Опции
@@ -10,7 +10,7 @@ $reactionCollector[канал;messageId;userFilters;time;reactions;awaits;remove
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | канал |  |  | Да | 
-| messageId |  |  | Да | 
+| сообщение |  |  | Да | 
 | userFilters |  |  | Да |
 | time |  |  | Да |
 | reactions |  |  | Да |
@@ -23,7 +23,7 @@ $reactionCollector[канал;messageId;userFilters;time;reactions;awaits;remove
 bot.command({
   name: '$reactionCollector',
   code: `
-$reactionCollector[канал;messageId;userFilters;time;reactions;awaits;removeReaction?;awaitData?;endAwait;]`
+$reactionCollector[канал;сообщение;userFilters;time;reactions;awaits;removeReaction?;awaitData?;endAwait;]`
 // Возвращает: ...
 })
 ```

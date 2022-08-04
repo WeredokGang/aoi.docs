@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$getAttachments[канал;messageId;index?;option?]
+$getAttachments[канал;сообщение;index?;option?]
 ```
 
 ### Опции
@@ -10,7 +10,7 @@ $getAttachments[канал;messageId;index?;option?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | канал |  |  | Да | 
-| messageId |  |  | Да | 
+| сообщение |  |  | Да | 
 | index |  |  | Нет |
 | option |  |  | Нет |
 ## Пример(ы)
@@ -19,7 +19,7 @@ $getAttachments[канал;messageId;index?;option?]
 bot.command({
   name: '$getAttachments',
   code: `
-$getAttachments[канал;messageId;index?;option?]`
+$getAttachments[канал;сообщение;index?;option?]`
 // Возвращает: ...
 })
 ```

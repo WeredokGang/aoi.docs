@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$getReactions[канал;messageId;reaction;force?;option?]
+$getReactions[канал;сообщение;reaction;force?;option?]
 ```
 
 ### Опции
@@ -10,7 +10,7 @@ $getReactions[канал;messageId;reaction;force?;option?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | канал |  |  | Да | 
-| messageId |  |  | Да | 
+| сообщение |  |  | Да | 
 | reaction |  |  | Да |
 | force |  |  | Нет |
 | option |  |  | Нет |
@@ -20,7 +20,7 @@ $getReactions[канал;messageId;reaction;force?;option?]
 bot.command({
   name: '$getReactions',
   code: `
-$getReactions[канал;messageId;reaction;force?;option?]`
+$getReactions[канал;сообщение;reaction;force?;option?]`
 // Возвращает: ...
 })
 ```

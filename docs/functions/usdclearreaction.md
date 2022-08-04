@@ -19,6 +19,6 @@ $clearReaction[канал;сообщение;пользователь;эмодж
 bot.command({
   name: '$clearReaction',
   code: `
-$clearReaction[$channelId;$messageId;$authorId;🔥]`
+$clearReaction[$channelId;$messageID;$authorId;🔥]`
 })
 ```

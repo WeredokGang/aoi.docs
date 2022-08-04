@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$unPinMessage[messageId?;channelId?]
+$unPinMessage[сообщение?;channelId?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| messageId |  |  | Нет | 
+| сообщение |  |  | Нет | 
 | channelId |  |  | Нет | 
 ## Пример(ы)
 
@@ -17,7 +17,7 @@ $unPinMessage[messageId?;channelId?]
 bot.command({
   name: '$unPinMessage',
   code: `
-$unPinMessage[messageId?;channelId?]`
+$unPinMessage[сообщение?;channelId?]`
 // Возвращает: ...
 })
 ```

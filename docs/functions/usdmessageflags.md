@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$messageFlags[messageId;sep?;';канал?]
+$messageFlags[сообщение;sep?;';канал?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| messageId |  |  | Да | 
+| сообщение |  |  | Да | 
 | sep |  |  | Нет | 
 | ' |  |  | Да |
 | канал |  |  | Нет |
@@ -19,7 +19,7 @@ $messageFlags[messageId;sep?;';канал?]
 bot.command({
   name: '$messageFlags',
   code: `
-$messageFlags[messageId;sep?;';канал?]`
+$messageFlags[сообщение;sep?;';канал?]`
 // Возвращает: ...
 })
 ```

@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$getEmbed[канал?;messageId?;index?;option?]
+$getEmbed[канал?;сообщение?;index?;option?]
 ```
 
 ### Опции
@@ -10,7 +10,7 @@ $getEmbed[канал?;messageId?;index?;option?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | канал |  |  | Нет | 
-| messageId |  |  | Нет | 
+| сообщение |  |  | Нет | 
 | index |  |  | Нет |
 | option |  |  | Нет |
 ## Пример(ы)
@@ -19,7 +19,7 @@ $getEmbed[канал?;messageId?;index?;option?]
 bot.command({
   name: '$getEmbed',
   code: `
-$getEmbed[канал?;messageId?;index?;option?]`
+$getEmbed[канал?;сообщение?;index?;option?]`
 // Возвращает: ...
 })
 ```

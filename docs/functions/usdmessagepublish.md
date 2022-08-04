@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$messagePublish[messageId?;канал?]
+$messagePublish[сообщение?;канал?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| messageId |  |  | Нет | 
+| сообщение |  |  | Нет | 
 | канал |  |  | Нет | 
 ## Пример(ы)
 
@@ -17,7 +17,7 @@ $messagePublish[messageId?;канал?]
 bot.command({
   name: '$messagePublish',
   code: `
-$messagePublish[messageId?;канал?]`
+$messagePublish[сообщение?;канал?]`
 // Возвращает: ...
 })
 ```

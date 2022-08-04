@@ -23,6 +23,6 @@ $awaitMessageReactions[канал;сообщение;фильтр;время;р�
 bot.command({
   name: '$awaitMessageReactions',
   code: `
-$awaitMessageReactions[$channelId;$messageId;everyone;30min;:joy:;:white_check_mark:;hi;bye;gn;{}]`
+$awaitMessageReactions[$channelId;$messageID;everyone;30min;:joy:;:white_check_mark:;hi;bye;gn;{}]`
 })
 ```
