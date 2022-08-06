@@ -29,7 +29,7 @@
  
 ## aoi.js - пакет от Akarui Development
 
-**Разработано [Leref](https://github.com/Leref), [Ayaka~~Buggy~~](https://github.com/Usersatoshi) и контрибуторами сообщества Akarui Development
+**Разработано [Leref](https://github.com/Leref), [Ayaka~~Buggy~~](https://github.com/Usersatoshi) и контрибуторами сообщества Akarui Development**
 
 <p align="center">
   <a href="https://aoi.js.org/invite">
@@ -40,5 +40,7 @@
     
 ## Ссылки
 [Официальный сервер](https://discord.gg/EpXEcn6Bzc)
+
 [Официальная документация](https://aoi.js.org/5.5.5/)
+
 [Исходный код](https://github.com/AkaruiDevelopment/aoi.js#v5)
