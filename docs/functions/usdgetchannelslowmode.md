@@ -2,21 +2,21 @@
 desc
 ### Использование
 ```php
-$getChannelSlowmode[channelId?]
+$getChannelSlowmode[канал?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| channelId |  |  | Нет |  
+| канал |  |  | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$getChannelSlowmode',
   code: `
-$getChannelSlowmode[channelId?]`
+$getChannelSlowmode[канал?]`
 // Возвращает: ...
 })
 ```

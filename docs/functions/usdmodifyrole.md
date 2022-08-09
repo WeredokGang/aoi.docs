@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$modifyRole[guildId;roleId;...roleDatas]
+$modifyRole[сервер;roleId;...roleDatas]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Да | 
+| сервер |  |  | Да | 
 | roleId |  |  | Да | 
 | ...roleDatas |  |  | Да |
 ## Пример(ы)
@@ -18,7 +18,7 @@ $modifyRole[guildId;roleId;...roleDatas]
 bot.command({
   name: '$modifyRole',
   code: `
-$modifyRole[guildId;roleId;...roleDatas]`
+$modifyRole[сервер;roleId;...roleDatas]`
 // Возвращает: ...
 })
 ```

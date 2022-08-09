@@ -1,22 +1,22 @@
 # $channelType
-desc
+Возвращает тип канала
 ### Использование
 ```php
-$channelType[channelID?]
+$channelType[канал?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| channelID |  |  | Нет |  
+| канал | канал, тип которого нужно узнать | айди | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$channelType',
   code: `
-$channelType[channelID?]`
-// Возвращает: ...
+$channelType[987109762073662018]`
+// Возвращает: Text
 })
 ```

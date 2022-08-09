@@ -2,21 +2,21 @@
 desc
 ### Использование
 ```php
-$serverSplash[guildId?]
+$serverSplash[сервер?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет |  
+| сервер |  |  | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$serverSplash',
   code: `
-$serverSplash[guildId?]`
+$serverSplash[сервер?]`
 // Возвращает: ...
 })
 ```

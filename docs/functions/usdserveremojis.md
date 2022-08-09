@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$serverEmojis[sep?;";guildId?]
+$serverEmojis[sep?;";сервер?]
 ```
 
 ### Опции
@@ -11,14 +11,14 @@ $serverEmojis[sep?;";guildId?]
 |--------|-------------|------|----------|
 | sep |  |  | Нет | 
 | " |  |  | Да | 
-| guildId |  |  | Нет |
+| сервер |  |  | Нет |
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$serverEmojis',
   code: `
-$serverEmojis[sep?;";guildId?]`
+$serverEmojis[sep?;";сервер?]`
 // Возвращает: ...
 })
 ```

@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$kick[userId;guildId?;reason]
+$kick[userId;сервер?;reason]
 ```
 
 ### Опции
@@ -10,7 +10,7 @@ $kick[userId;guildId?;reason]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | userId |  |  | Да | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 | reason |  |  | Да |
 ## Пример(ы)
 
@@ -18,7 +18,7 @@ $kick[userId;guildId?;reason]
 bot.command({
   name: '$kick',
   code: `
-$kick[userId;guildId?;reason]`
+$kick[userId;сервер?;reason]`
 // Возвращает: ...
 })
 ```

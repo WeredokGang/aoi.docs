@@ -1,17 +1,17 @@
 # $channelUsed
-desc
+Возвращает канал где был вызван обратный вызов. Используется для обратных вызовов [messageUpdate](callbacks/messageupdate) и [messageDelete](callbacks/messagedelete)
 ### Использование
 ```php
-$channelUsednull
+$channelUsed
 ```
 
 ## Пример(ы)
 
 ```javascript
-bot.command({
+bot.messageUpdateCommand({
   name: '$channelUsed',
   code: `
-$channelUsednull`
-// Возвращает: ...
+$channelUsed`
+// Возвращает: 9976792826680276
 })
 ```

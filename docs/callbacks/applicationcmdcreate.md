@@ -1,8 +1,8 @@
 # applicationCmdCreate
-desc
+Срабатывает когда создаётся аппликация (слэш-команда)
 ### Использование
 ```php
-bot.onapplicationCmdCreate()
+bot.onАpplicationCmdCreate()
 bot.applicationCmdCreateCommand
 ```
 ## Пример(ы)
@@ -10,8 +10,7 @@ bot.applicationCmdCreateCommand
 ```javascript
 bot.applicationCmdCreatecommand({
   name: 'applicationCmdCreate',
-  code: `
+  code: `$sendDm[Была создана новая слэш-команда на сервере $serverName ($guildID);$botownerid]
 `
-// Возвращает: ...
 })
 ```

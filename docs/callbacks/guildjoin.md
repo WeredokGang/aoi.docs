@@ -1,8 +1,8 @@
 # guildJoin
-desc
+Срабатывает когда бот присоединяется к серверу
 ### Использование
 ```php
-bot.onguildJoin()
+bot.onGuildJoin()
 bot.guildJoinCommand
 ```
 ## Пример(ы)
@@ -10,8 +10,8 @@ bot.guildJoinCommand
 ```javascript
 bot.guildJoincommand({
   name: 'guildJoin',
-  code: `
+  code: `Я присоединился к серверу $serverName: $membersCount участников, владелец $userTag[$ownerID]. Приглашение: $createServerInvite
+  $dm[$botOwnerID]
 `
-// Возвращает: ...
 })
 ```

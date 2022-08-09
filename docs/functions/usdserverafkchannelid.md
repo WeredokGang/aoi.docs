@@ -2,21 +2,21 @@
 desc
 ### Использование
 ```php
-$serverAFKChannelID[guildId?]
+$serverAFKChannelID[сервер?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет |  
+| сервер |  |  | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$serverAFKChannelID',
   code: `
-$serverAFKChannelID[guildId?]`
+$serverAFKChannelID[сервер?]`
 // Возвращает: ...
 })
 ```

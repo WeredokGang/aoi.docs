@@ -1,8 +1,8 @@
 # applicationCmdDelete
-desc
+Срабатывает когда удаляется аппликация (слэш-команда)
 ### Использование
 ```php
-bot.onapplicationCmdDelete()
+bot.onАpplicationCmdDelete()
 bot.applicationCmdDeleteCommand
 ```
 ## Пример(ы)
@@ -10,8 +10,7 @@ bot.applicationCmdDeleteCommand
 ```javascript
 bot.applicationCmdDeletecommand({
   name: 'applicationCmdDelete',
-  code: `
+  code: `$sendDm[Была удалена слэш-команда на сервере $serverName ($guildID);$botownerid]
 `
-// Возвращает: ...
 })
 ```

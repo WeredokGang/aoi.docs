@@ -1,8 +1,8 @@
 # join
-desc
+Срабатывает когда кто-либо присоединяется к серверу
 ### Использование
 ```php
-bot.onjoin()
+bot.onJoin()
 bot.joinCommand
 ```
 ## Пример(ы)
@@ -10,8 +10,7 @@ bot.joinCommand
 ```javascript
 bot.joincommand({
   name: 'join',
-  code: `
+  code: `На сервер $serverName присоединился новый участник: $userTag ($authorID)
 `
-// Возвращает: ...
 })
 ```

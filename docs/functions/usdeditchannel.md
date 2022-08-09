@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$editChannel[channelId;...fields]
+$editChannel[канал;...fields]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| channelId |  |  | Да | 
+| канал |  |  | Да | 
 | ...fields |  |  | Да | 
 ## Пример(ы)
 
@@ -17,7 +17,7 @@ $editChannel[channelId;...fields]
 bot.command({
   name: '$editChannel',
   code: `
-$editChannel[channelId;...fields]`
+$editChannel[канал;...fields]`
 // Возвращает: ...
 })
 ```

@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$joinThread[channelId;threadId]
+$joinThread[канал;threadId]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| channelId |  |  | Да | 
+| канал |  |  | Да | 
 | threadId |  |  | Да | 
 ## Пример(ы)
 
@@ -17,7 +17,7 @@ $joinThread[channelId;threadId]
 bot.command({
   name: '$joinThread',
   code: `
-$joinThread[channelId;threadId]`
+$joinThread[канал;threadId]`
 // Возвращает: ...
 })
 ```

@@ -2,21 +2,21 @@
 desc
 ### Использование
 ```php
-$randomRoleId[guildId?]
+$randomRoleId[сервер?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет |  
+| сервер |  |  | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$randomRoleId',
   code: `
-$randomRoleId[guildId?]`
+$randomRoleId[сервер?]`
 // Возвращает: ...
 })
 ```

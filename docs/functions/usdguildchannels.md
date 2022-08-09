@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$guildChannels[guildId?;option?;sep?;']
+$guildChannels[сервер?;option?;sep?;']
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 | option |  |  | Нет | 
 | sep |  |  | Нет |
 | ' |  |  | Да |
@@ -19,7 +19,7 @@ $guildChannels[guildId?;option?;sep?;']
 bot.command({
   name: '$guildChannels',
   code: `
-$guildChannels[guildId?;option?;sep?;']`
+$guildChannels[сервер?;option?;sep?;']`
 // Возвращает: ...
 })
 ```

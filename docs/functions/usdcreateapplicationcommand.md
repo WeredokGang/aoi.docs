@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$createApplicationCommand[guildId;name;description;defaultPermission?;type?;...opts]
+$createApplicationCommand[сервер;name;description;defaultPermission?;type?;...opts]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Да | 
+| сервер |  |  | Да | 
 | name |  |  | Да | 
 | description |  |  | Да |
 | defaultPermission |  |  | Нет |
@@ -21,7 +21,7 @@ $createApplicationCommand[guildId;name;description;defaultPermission?;type?;...o
 bot.command({
   name: '$createApplicationCommand',
   code: `
-$createApplicationCommand[guildId;name;description;defaultPermission?;type?;...opts]`
+$createApplicationCommand[сервер;name;description;defaultPermission?;type?;...opts]`
 // Возвращает: ...
 })
 ```

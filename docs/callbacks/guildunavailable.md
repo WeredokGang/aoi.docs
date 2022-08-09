@@ -1,8 +1,8 @@
 # guildUnavailable
-desc
+Срабатывает когда сервер становится недоступным. Например его удалили, или он недоступен из-за временных работ Discord на сервере
 ### Использование
 ```php
-bot.onguildUnavailable()
+bot.onGuildUnavailable()
 bot.guildUnavailableCommand
 ```
 ## Пример(ы)
@@ -10,8 +10,8 @@ bot.guildUnavailableCommand
 ```javascript
 bot.guildUnavailablecommand({
   name: 'guildUnavailable',
-  code: `
+  code: `Сервер $serverName больше недоступен
+  $dm[$botownerid]
 `
-// Возвращает: ...
 })
 ```

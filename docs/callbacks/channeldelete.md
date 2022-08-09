@@ -1,5 +1,6 @@
 # channelDelete
-desc
+Срабатывает на удаление канала на сервере любого типа: текстовый, голосовой, категория, трибуна или ветка. Для получения свойств канала используйте функции [$newChannel](functions/usdnewchannel.md) и [$oldChannel](functions/usdoldchannel.md)
+
 ### Использование
 ```php
 bot.onchannelDelete()
@@ -10,8 +11,9 @@ bot.channelDeleteCommand
 ```javascript
 bot.channelDeletecommand({
   name: 'channelDelete',
-  code: `
+  code: `На сервере $serverName был удалён канал $oldChannel[name]
+  $dm[$botOwnerid]
 `
-// Возвращает: ...
+
 })
 ```

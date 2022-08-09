@@ -2,21 +2,21 @@
 desc
 ### Использование
 ```php
-$serverBoostLevel[guildId?]
+$serverBoostLevel[сервер?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет |  
+| сервер |  |  | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$serverBoostLevel',
   code: `
-$serverBoostLevel[guildId?]`
+$serverBoostLevel[сервер?]`
 // Возвращает: ...
 })
 ```

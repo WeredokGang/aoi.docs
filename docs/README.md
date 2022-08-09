@@ -30,18 +30,10 @@
 - Интегрированная документация в нашего бота - aoi.js docs
 - В разработке!
  
-## Это пакет от Akarui Development
+## Этот пакет от Akarui Development
 
 <p align="center">
   <a href="https://aoi.js.org/invite">
     <img width="350" src="https://cdn.discordapp.com/attachments/804813961190572093/909447704978001931/Akarui_Development_Banner.png">
   </a>
 </p>
-
-    
-## Ссылки
-{% embed url="https://akarui.leref.ga/v/5" %}
-{% embed url="https://aoi.js.org/invite" %}
-{ % embed url="https://akarui.leref.ga/" %}
-{ % embed title="Community" %}
-{ % embed url="https://discord.gg/EpXEcn6Bzc" % }

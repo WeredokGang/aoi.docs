@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$channelPermissionsFor[uorrId?;channelId?;sep?;"]
+$channelPermissionsFor[uorrId?;канал?;sep?;"]
 ```
 
 ### Опции
@@ -10,7 +10,7 @@ $channelPermissionsFor[uorrId?;channelId?;sep?;"]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | uorrId |  |  | Нет | 
-| channelId |  |  | Нет | 
+| канал |  |  | Нет | 
 | sep |  |  | Нет |
 | " |  |  | Да |
 ## Пример(ы)
@@ -19,7 +19,7 @@ $channelPermissionsFor[uorrId?;channelId?;sep?;"]
 bot.command({
   name: '$channelPermissionsFor',
   code: `
-$channelPermissionsFor[uorrId?;channelId?;sep?;"]`
+$channelPermissionsFor[uorrId?;канал?;sep?;"]`
 // Возвращает: ...
 })
 ```

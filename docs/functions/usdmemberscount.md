@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$membersCount[guildId?;presence?;countBot?]
+$membersCount[сервер?;presence?;countBot?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 | presence |  |  | Нет | 
 | countBot |  |  | Нет |
 ## Пример(ы)
@@ -18,7 +18,7 @@ $membersCount[guildId?;presence?;countBot?]
 bot.command({
   name: '$membersCount',
   code: `
-$membersCount[guildId?;presence?;countBot?]`
+$membersCount[сервер?;presence?;countBot?]`
 // Возвращает: ...
 })
 ```

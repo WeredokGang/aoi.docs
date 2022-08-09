@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$resetUserVar[varname;guildId?;table?]
+$resetUserVar[varname;сервер?;table?]
 ```
 
 ### Опции
@@ -10,7 +10,7 @@ $resetUserVar[varname;guildId?;table?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | varname |  |  | Да | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 | table |  |  | Нет |
 ## Пример(ы)
 
@@ -18,7 +18,7 @@ $resetUserVar[varname;guildId?;table?]
 bot.command({
   name: '$resetUserVar',
   code: `
-$resetUserVar[varname;guildId?;table?]`
+$resetUserVar[varname;сервер?;table?]`
 // Возвращает: ...
 })
 ```

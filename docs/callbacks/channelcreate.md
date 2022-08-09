@@ -1,8 +1,8 @@
 # channelCreate
-desc
+Срабатывает на создание канала на сервере любого типа: текстовый, голосовой, категория, трибуна или ветка. Для получения свойств канала используйте функции [$newChannel](functions/usdnewchannel.md) и [$oldChannel](functions/usdoldchannel.md)
 ### Использование
 ```php
-bot.onchannelCreate()
+bot.onChannelCreate()
 bot.channelCreateCommand
 ```
 ## Пример(ы)
@@ -10,8 +10,8 @@ bot.channelCreateCommand
 ```javascript
 bot.channelCreatecommand({
   name: 'channelCreate',
-  code: `
+  code: `На сервере $servername был создан канал $newchannel[name]
+  $dm[$botownerid]
 `
-// Возвращает: ...
 })
 ```

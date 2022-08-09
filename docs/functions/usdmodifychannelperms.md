@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$modifyChannelPerms[roruId;channelId;...perms]
+$modifyChannelPerms[roruId;канал;...perms]
 ```
 
 ### Опции
@@ -10,7 +10,7 @@ $modifyChannelPerms[roruId;channelId;...perms]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | roruId |  |  | Да | 
-| channelId |  |  | Да | 
+| канал |  |  | Да | 
 | ...perms |  |  | Да |
 ## Пример(ы)
 
@@ -18,7 +18,7 @@ $modifyChannelPerms[roruId;channelId;...perms]
 bot.command({
   name: '$modifyChannelPerms',
   code: `
-$modifyChannelPerms[roruId;channelId;...perms]`
+$modifyChannelPerms[roruId;канал;...perms]`
 // Возвращает: ...
 })
 ```

@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$deleteMessage[messageId;channel?]
+$deleteMessage[сообщение;channel?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| messageId |  |  | Да | 
+| сообщение |  |  | Да | 
 | channel |  |  | Нет | 
 ## Пример(ы)
 
@@ -17,7 +17,7 @@ $deleteMessage[messageId;channel?]
 bot.command({
   name: '$deleteMessage',
   code: `
-$deleteMessage[messageId;channel?]`
+$deleteMessage[сообщение;channel?]`
 // Возвращает: ...
 })
 ```

@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$deleteSticker[guildId;sticker]
+$deleteSticker[сервер;sticker]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Да | 
+| сервер |  |  | Да | 
 | sticker |  |  | Да | 
 ## Пример(ы)
 
@@ -17,7 +17,7 @@ $deleteSticker[guildId;sticker]
 bot.command({
   name: '$deleteSticker',
   code: `
-$deleteSticker[guildId;sticker]`
+$deleteSticker[сервер;sticker]`
 // Возвращает: ...
 })
 ```

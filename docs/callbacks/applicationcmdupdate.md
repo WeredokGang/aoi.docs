@@ -1,8 +1,8 @@
 # applicationCmdUpdate
-desc
+Срабатывает когда обновляется аппликация (слэш-команда)
 ### Использование
 ```php
-bot.onapplicationCmdUpdate()
+bot.onАpplicationCmdUpdate()
 bot.applicationCmdUpdateCommand
 ```
 ## Пример(ы)
@@ -10,7 +10,7 @@ bot.applicationCmdUpdateCommand
 ```javascript
 bot.applicationCmdUpdatecommand({
   name: 'applicationCmdUpdate',
-  code: `
+  code: `$sendDm[Была создана новая слэш-команда на сервере $serverName ($guildID);$botownerid]
 `
 // Возвращает: ...
 })

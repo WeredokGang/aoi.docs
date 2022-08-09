@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$setRolePosition[roleId;newPosition;guildId?]
+$setRolePosition[roleId;newPosition;сервер?]
 ```
 
 ### Опции
@@ -11,14 +11,14 @@ $setRolePosition[roleId;newPosition;guildId?]
 |--------|-------------|------|----------|
 | roleId |  |  | Да | 
 | newPosition |  |  | Да | 
-| guildId |  |  | Нет |
+| сервер |  |  | Нет |
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$setRolePosition',
   code: `
-$setRolePosition[roleId;newPosition;guildId?]`
+$setRolePosition[roleId;newPosition;сервер?]`
 // Возвращает: ...
 })
 ```

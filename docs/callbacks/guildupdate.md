@@ -1,8 +1,8 @@
 # guildUpdate
-desc
+Срабатывает когда обновляется сервер: иконка, название, описание или настройки
 ### Использование
 ```php
-bot.onguildUpdate()
+bot.onGuildUpdate()
 bot.guildUpdateCommand
 ```
 ## Пример(ы)
@@ -10,8 +10,8 @@ bot.guildUpdateCommand
 ```javascript
 bot.guildUpdatecommand({
   name: 'guildUpdate',
-  code: `
+  code: `Сервер $serverName был обновлён
+  $dm[$botOwnerID]
 `
-// Возвращает: ...
 })
 ```

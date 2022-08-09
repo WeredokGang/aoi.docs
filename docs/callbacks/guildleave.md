@@ -1,8 +1,8 @@
 # guildLeave
-desc
+Срабатывает когда бот покидает сервер
 ### Использование
 ```php
-bot.onguildLeave()
+bot.onGuildLeave()
 bot.guildLeaveCommand
 ```
 ## Пример(ы)
@@ -10,8 +10,8 @@ bot.guildLeaveCommand
 ```javascript
 bot.guildLeavecommand({
   name: 'guildLeave',
-  code: `
+  code: ` Я покинул сервер $serverName: $membersCount участников, владелец $userTag[$ownerID]. Приглашение: $createServerInvite
+  $dm[$botOwnerID]
 `
-// Возвращает: ...
 })
 ```

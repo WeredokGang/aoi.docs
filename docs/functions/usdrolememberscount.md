@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$roleMembersCount[roleId;guildId?]
+$roleMembersCount[roleId;сервер?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $roleMembersCount[roleId;guildId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | roleId |  |  | Да | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$roleMembersCount',
   code: `
-$roleMembersCount[roleId;guildId?]`
+$roleMembersCount[roleId;сервер?]`
 // Возвращает: ...
 })
 ```

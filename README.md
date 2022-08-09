@@ -5,14 +5,11 @@
   </a>
 </p>
 
-<h1 align="center">Документация aoi.js </h1>
+<h1 align="center">aoi.docs - Документация aoi.js </h1>
 
 <div align="center">
 
-**Документация для aoi.js: Возможности, Обратные Вызовы, Функции и Информация о пакете!**
-
-
-Разработано [Weredok#4565](https://discord.com/users/828198636549832737) и контрибуторами.
+Разработано [Weredok#4565](https://discord.com/users/828198636549832737) и контрибуторами сообщества [#WeredokGang](https://discord.io/WeredokGang)
 
 [npm-image]: http://img.shields.io/npm/v/aoi.js.svg?style=flat-square
 [npm-url]: http://npmjs.org/package/aoi.js
@@ -23,14 +20,16 @@
     
 </div>
 
-## Возможности документации
+## О документации
 
-- Переведенные основные статьи с англоязычной документации
-- Больше категорий, по которым вы можете найти информацию
+- Переведенные основные статьи с англоязычной документации для aoi.js
 - Интегрированная документация в нашего бота - aoi.js docs
-- В разработке!
+- Разработка не стоит на месте, мы постоянно улучшаем документацию
+- Вы можете помочь нам с разработкой создав запрос на изменение!
  
-## Это пакет от Akarui Development
+## aoi.js - пакет от Akarui Development
+
+**Разработано [Leref](https://github.com/Leref), [Ayaka~~Buggy~~](https://github.com/Usersatoshi) и контрибуторами сообщества Akarui Development**
 
 <p align="center">
   <a href="https://aoi.js.org/invite">
@@ -40,8 +39,8 @@
 
     
 ## Ссылки
-{% embed url="https://akarui.leref.ga/v/5" %}
-{% embed url="https://aoi.js.org/invite" %}
-{ % embed url="https://akarui.leref.ga/" %}
-{ % embed title="Community" %}
-{ % embed url="https://discord.gg/EpXEcn6Bzc" % }
+[Официальный сервер](https://discord.gg/EpXEcn6Bzc)
+
+[Официальная документация](https://aoi.js.org/5.5.5/)
+
+[Исходный код](https://github.com/AkaruiDevelopment/aoi.js#v5)

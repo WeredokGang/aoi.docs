@@ -2,22 +2,22 @@
 desc
 ### Использование
 ```php
-$messageURL[messageId?;channelId?]
+$messageURL[сообщение?;канал?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| messageId |  |  | Нет | 
-| channelId |  |  | Нет | 
+| сообщение |  |  | Нет | 
+| канал |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$messageURL',
   code: `
-$messageURL[messageId?;channelId?]`
+$messageURL[сообщение?;канал?]`
 // Возвращает: ...
 })
 ```

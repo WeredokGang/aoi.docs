@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$muteUser[guildId;userId;mute?;reason]
+$muteUser[сервер;userId;mute?;reason]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Да | 
+| сервер |  |  | Да | 
 | userId |  |  | Да | 
 | mute |  |  | Нет |
 | reason |  |  | Да |
@@ -19,7 +19,7 @@ $muteUser[guildId;userId;mute?;reason]
 bot.command({
   name: '$muteUser',
   code: `
-$muteUser[guildId;userId;mute?;reason]`
+$muteUser[сервер;userId;mute?;reason]`
 // Возвращает: ...
 })
 ```

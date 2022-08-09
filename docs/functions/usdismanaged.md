@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$isManaged[roleId;guildId?]
+$isManaged[roleId;сервер?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $isManaged[roleId;guildId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | roleId |  |  | Да | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$isManaged',
   code: `
-$isManaged[roleId;guildId?]`
+$isManaged[roleId;сервер?]`
 // Возвращает: ...
 })
 ```

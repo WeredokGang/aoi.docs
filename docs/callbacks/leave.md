@@ -1,8 +1,8 @@
 # leave
-desc
+Срабатывает когда кто-либо выходит с сервера
 ### Использование
 ```php
-bot.onleave()
+bot.onLeave()
 bot.leaveCommand
 ```
 ## Пример(ы)
@@ -10,8 +10,8 @@ bot.leaveCommand
 ```javascript
 bot.leavecommand({
   name: 'leave',
-  code: `
+  code: `Пользователь $userTag покинул сервер $serverName
+  $dm[$botOwnerID]
 `
-// Возвращает: ...
 })
 ```

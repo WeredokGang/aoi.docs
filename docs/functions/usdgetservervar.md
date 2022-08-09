@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$getServerVar[varname;guildId?;table?]
+$getServerVar[varname;сервер?;table?]
 ```
 
 ### Опции
@@ -10,7 +10,7 @@ $getServerVar[varname;guildId?;table?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | varname |  |  | Да | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 | table |  |  | Нет |
 ## Пример(ы)
 
@@ -18,7 +18,7 @@ $getServerVar[varname;guildId?;table?]
 bot.command({
   name: '$getServerVar',
   code: `
-$getServerVar[varname;guildId?;table?]`
+$getServerVar[varname;сервер?;table?]`
 // Возвращает: ...
 })
 ```

@@ -2,21 +2,21 @@
 desc
 ### Использование
 ```php
-$serverIcon[guildId?]
+$serverIcon[сервер?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет |  
+| сервер |  |  | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$serverIcon',
   code: `
-$serverIcon[guildId?]`
+$serverIcon[сервер?]`
 // Возвращает: ...
 })
 ```

@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$findMember[memberResolver;returnSelf?;guildId?]
+$findMember[memberResolver;returnSelf?;сервер?]
 ```
 
 ### Опции
@@ -11,14 +11,14 @@ $findMember[memberResolver;returnSelf?;guildId?]
 |--------|-------------|------|----------|
 | memberResolver |  |  | Да | 
 | returnSelf |  |  | Нет | 
-| guildId |  |  | Нет |
+| сервер |  |  | Нет |
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$findMember',
   code: `
-$findMember[memberResolver;returnSelf?;guildId?]`
+$findMember[memberResolver;returnSelf?;сервер?]`
 // Возвращает: ...
 })
 ```

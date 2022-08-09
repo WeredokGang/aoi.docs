@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$userLeaderBoard[guildId;variable;type?;custom?;list?;page?;table?]
+$userLeaderBoard[сервер;variable;type?;custom?;list?;page?;table?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Да | 
+| сервер |  |  | Да | 
 | variable |  |  | Да | 
 | type |  |  | Нет |
 | custom |  |  | Нет |
@@ -22,7 +22,7 @@ $userLeaderBoard[guildId;variable;type?;custom?;list?;page?;table?]
 bot.command({
   name: '$userLeaderBoard',
   code: `
-$userLeaderBoard[guildId;variable;type?;custom?;list?;page?;table?]`
+$userLeaderBoard[сервер;variable;type?;custom?;list?;page?;table?]`
 // Возвращает: ...
 })
 ```

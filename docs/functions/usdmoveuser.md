@@ -2,16 +2,16 @@
 desc
 ### Использование
 ```php
-$moveUser[guildId;userId;channelId;reason]
+$moveUser[сервер;userId;канал;reason]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Да | 
+| сервер |  |  | Да | 
 | userId |  |  | Да | 
-| channelId |  |  | Да |
+| канал |  |  | Да |
 | reason |  |  | Да |
 ## Пример(ы)
 
@@ -19,7 +19,7 @@ $moveUser[guildId;userId;channelId;reason]
 bot.command({
   name: '$moveUser',
   code: `
-$moveUser[guildId;userId;channelId;reason]`
+$moveUser[сервер;userId;канал;reason]`
 // Возвращает: ...
 })
 ```

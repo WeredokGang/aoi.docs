@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$role[roleId;option?;guildId?]
+$role[roleId;option?;сервер?]
 ```
 
 ### Опции
@@ -11,14 +11,14 @@ $role[roleId;option?;guildId?]
 |--------|-------------|------|----------|
 | roleId |  |  | Да | 
 | option |  |  | Нет | 
-| guildId |  |  | Нет |
+| сервер |  |  | Нет |
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$role',
   code: `
-$role[roleId;option?;guildId?]`
+$role[roleId;option?;сервер?]`
 // Возвращает: ...
 })
 ```

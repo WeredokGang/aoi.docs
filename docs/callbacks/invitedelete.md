@@ -1,8 +1,8 @@
 # inviteDelete
-desc
+Срабатывает когда на сервере удаляется ссылка-приглашение
 ### Использование
 ```php
-bot.oninviteDelete()
+bot.onInviteDelete()
 bot.inviteDeleteCommand
 ```
 ## Пример(ы)
@@ -10,8 +10,8 @@ bot.inviteDeleteCommand
 ```javascript
 bot.inviteDeletecommand({
   name: 'inviteDelete',
-  code: `
+  code: `На сервере $serverName была удалена ссылка-приглашение
 `
-// Возвращает: ...
 })
 ```
+###### Мало информации

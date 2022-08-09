@@ -2,21 +2,21 @@
 desc
 ### Использование
 ```php
-$serverRulesChannelID[guildId?]
+$serverRulesChannelID[сервер?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет |  
+| сервер |  |  | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$serverRulesChannelID',
   code: `
-$serverRulesChannelID[guildId?]`
+$serverRulesChannelID[сервер?]`
 // Возвращает: ...
 })
 ```

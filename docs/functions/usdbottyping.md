@@ -1,8 +1,8 @@
 # $botTyping
-desc
+Бот начинает печатать в канале, где вызвали функцию
 ### Использование
 ```php
-$botTypingnull
+$botTyping
 ```
 
 ## Пример(ы)
@@ -11,7 +11,6 @@ $botTypingnull
 bot.command({
   name: '$botTyping',
   code: `
-$botTypingnull`
-// Возвращает: ...
+$botTyping`
 })
 ```

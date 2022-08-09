@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$pruneMembers[days?;guildId?;roleIds;dry?;reason;count?]
+$pruneMembers[days?;сервер?;roleIds;dry?;reason;count?]
 ```
 
 ### Опции
@@ -10,7 +10,7 @@ $pruneMembers[days?;guildId?;roleIds;dry?;reason;count?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | days |  |  | Нет | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 | roleIds |  |  | Да |
 | dry |  |  | Нет |
 | reason |  |  | Да |
@@ -21,7 +21,7 @@ $pruneMembers[days?;guildId?;roleIds;dry?;reason;count?]
 bot.command({
   name: '$pruneMembers',
   code: `
-$pruneMembers[days?;guildId?;roleIds;dry?;reason;count?]`
+$pruneMembers[days?;сервер?;roleIds;dry?;reason;count?]`
 // Возвращает: ...
 })
 ```

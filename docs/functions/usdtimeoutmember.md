@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$timeoutMember[guildId?;memberId?;timeout?;timeoutEndsAt?;reason;]
+$timeoutMember[сервер?;memberId?;timeout?;timeoutEndsAt?;reason;]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 | memberId |  |  | Нет | 
 | timeout |  |  | Нет |
 | timeoutEndsAt |  |  | Нет |
@@ -21,7 +21,7 @@ $timeoutMember[guildId?;memberId?;timeout?;timeoutEndsAt?;reason;]
 bot.command({
   name: '$timeoutMember',
   code: `
-$timeoutMember[guildId?;memberId?;timeout?;timeoutEndsAt?;reason;]`
+$timeoutMember[сервер?;memberId?;timeout?;timeoutEndsAt?;reason;]`
 // Возвращает: ...
 })
 ```

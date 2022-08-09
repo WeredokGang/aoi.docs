@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$getMessageVar[varname;messageId?;table?]
+$getMessageVar[varname;сообщение?;table?]
 ```
 
 ### Опции
@@ -10,7 +10,7 @@ $getMessageVar[varname;messageId?;table?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | varname |  |  | Да | 
-| messageId |  |  | Нет | 
+| сообщение |  |  | Нет | 
 | table |  |  | Нет |
 ## Пример(ы)
 
@@ -18,7 +18,7 @@ $getMessageVar[varname;messageId?;table?]
 bot.command({
   name: '$getMessageVar',
   code: `
-$getMessageVar[varname;messageId?;table?]`
+$getMessageVar[varname;сообщение?;table?]`
 // Возвращает: ...
 })
 ```

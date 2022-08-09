@@ -1,8 +1,8 @@
 # inviteCreate
-desc
+Срабатывает когда на сервере создаётся ссылка-приглашение
 ### Использование
 ```php
-bot.oninviteCreate()
+bot.onInviteCreate()
 bot.inviteCreateCommand
 ```
 ## Пример(ы)
@@ -10,8 +10,8 @@ bot.inviteCreateCommand
 ```javascript
 bot.inviteCreatecommand({
   name: 'inviteCreate',
-  code: `
+  code: `На сервере $serverName была создана ссылка-приглашение
 `
-// Возвращает: ...
 })
 ```
+###### Мало информации

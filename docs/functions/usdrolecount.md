@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$roleCount[guildId?;fetchFirst?]
+$roleCount[сервер?;fetchFirst?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 | fetchFirst |  |  | Нет | 
 ## Пример(ы)
 
@@ -17,7 +17,7 @@ $roleCount[guildId?;fetchFirst?]
 bot.command({
   name: '$roleCount',
   code: `
-$roleCount[guildId?;fetchFirst?]`
+$roleCount[сервер?;fetchFirst?]`
 // Возвращает: ...
 })
 ```

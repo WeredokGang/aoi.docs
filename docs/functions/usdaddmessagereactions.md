@@ -2,15 +2,15 @@
 Добавляет реакции к указанному сообщению
 ### Использование
 ```php
-$addMessageReactions[channelId;messageId;...reactions]
+$addMessageReactions[канал;сообщение;...reactions]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| channelId |  |  | Да | 
-| messageId |  |  | Да | 
+| канал |  |  | Да | 
+| сообщение |  |  | Да | 
 | ...reactions |  |  | Да |
 ## Пример(ы)
 
@@ -18,7 +18,7 @@ $addMessageReactions[channelId;messageId;...reactions]
 bot.command({
   name: '$addMessageReactions',
   code: `
-$addMessageReactions[$channelID;$messageId;:joy:]`
+$addMessageReactions[$channelID;$messageID;:joy:]`
 // Возвращает: ...
 })
 ```

@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$reply[messageId?;mentionUser?]
+$reply[сообщение?;mentionUser?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| messageId |  |  | Нет | 
+| сообщение |  |  | Нет | 
 | mentionUser |  |  | Нет | 
 ## Пример(ы)
 
@@ -17,7 +17,7 @@ $reply[messageId?;mentionUser?]
 bot.command({
   name: '$reply',
   code: `
-$reply[messageId?;mentionUser?]`
+$reply[сообщение?;mentionUser?]`
 // Возвращает: ...
 })
 ```

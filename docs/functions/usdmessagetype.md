@@ -2,22 +2,22 @@
 desc
 ### Использование
 ```php
-$messageType[messageId?;channelId?]
+$messageType[сообщение?;канал?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| messageId |  |  | Нет | 
-| channelId |  |  | Нет | 
+| сообщение |  |  | Нет | 
+| канал |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$messageType',
   code: `
-$messageType[messageId?;channelId?]`
+$messageType[сообщение?;канал?]`
 // Возвращает: ...
 })
 ```

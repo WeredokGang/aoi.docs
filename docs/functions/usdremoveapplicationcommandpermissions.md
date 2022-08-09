@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$removeApplicationCommandPermissions[guildId?;id;...roruids]
+$removeApplicationCommandPermissions[сервер?;id;...roruids]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 | id |  |  | Да | 
 | ...roruids |  |  | Да |
 ## Пример(ы)
@@ -18,7 +18,7 @@ $removeApplicationCommandPermissions[guildId?;id;...roruids]
 bot.command({
   name: '$removeApplicationCommandPermissions',
   code: `
-$removeApplicationCommandPermissions[guildId?;id;...roruids]`
+$removeApplicationCommandPermissions[сервер?;id;...roruids]`
 // Возвращает: ...
 })
 ```

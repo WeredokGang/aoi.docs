@@ -1,23 +1,22 @@
 # $setGuildName
-desc
+Устанавилвает указанное имя серверву
 ### Использование
 ```php
-$setGuildName[name;guildId?]
+$setGuildName[имя;сервер?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| name |  |  | Да | 
-| guildId |  |  | Нет | 
+| name | Имя, которое будет установлено | Строка | Да | 
+| сервер | Сервер, которому имя будет присвоено | Число | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
-  name: '$setGuildName',
+  name: 'setGuildName',
   code: `
-$setGuildName[name;guildId?]`
-// Возвращает: ...
+$setGuildName[WeredokGang;$guildID]`
 })
 ```

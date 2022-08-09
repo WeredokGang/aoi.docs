@@ -19,6 +19,9 @@ $ban[сервер?;пользователь;дни?;причина]
 bot.command({
   name: '$ban',
   code: `
-$ban[$guildID;$mentioned[1;yes];120;Модератор $username заблокировал этого пользователя]`
+$ban[$guildID;$mentioned[1;no];120;Модератор $username заблокировал этого пользователя]
+
+
+`
 })
 ```

@@ -1,5 +1,5 @@
 # Музыка
-
+Начиная с версии aoi.js v5 появилась возможность вновь использовать музыку. Данный пакет даёт вам возможность работать с музыкой разных платформ - youtube, spotify, soundcloud а так-же локальные - ссылки на треки или путь к файлу с треком
 ## Установка
 
 ```
@@ -46,7 +46,7 @@ loader.load(voice.cmd, "./Commands/voice/"); //загрузчик музыкал
 //Commands/commands/play.js
 module.exports = {
   name: "play youtube",
-  $if: "v4", //включение псевдо $if
+  $if: "v4", 
   code: `
     $let[msg;$playTrack[youtube;$message]]
 
@@ -54,8 +54,7 @@ module.exports = {
         $joinVc
     $endif
 
-    $onlyif[($voiceId[$clientId]!=)&&($voiceId[$clientId]==$voiceId);ты не в том же канале]
-    $onlyif[$voiceId!=;Зайди в голосовой канал прежде чем использовать команду]
+
     `,
 };
 ```

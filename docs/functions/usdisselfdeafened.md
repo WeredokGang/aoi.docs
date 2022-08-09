@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$isSelfDeafened[userId?;guildId?]
+$isSelfDeafened[userId?;сервер?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $isSelfDeafened[userId?;guildId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | userId |  |  | Нет | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$isSelfDeafened',
   code: `
-$isSelfDeafened[userId?;guildId?]`
+$isSelfDeafened[userId?;сервер?]`
 // Возвращает: ...
 })
 ```

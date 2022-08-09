@@ -1,17 +1,18 @@
 # loop
-desc
+Выполняет один и тот же код постоянно с указанной задержкой
 ### Использование
 ```php
-bot.onloop()
 bot.loopCommand
 ```
 ## Пример(ы)
 
 ```javascript
-bot.loopcommand({
+bot.loopCommand({
   name: 'loop',
-  code: `
+  executeOnStartUp: true / false, //Начинать ли выполнение после старта борта
+  every: мс, //Количество миллисекунд для задержки
+  code: `$log[Привет!]
 `
-// Возвращает: ...
+
 })
 ```

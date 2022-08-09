@@ -2,21 +2,21 @@
 desc
 ### Использование
 ```php
-$isTicket[channelId?]
+$isTicket[канал?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| channelId |  |  | Нет |  
+| канал |  |  | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$isTicket',
   code: `
-$isTicket[channelId?]`
+$isTicket[канал?]`
 // Возвращает: ...
 })
 ```

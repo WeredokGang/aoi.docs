@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$memberJoinPosition[userId?;guildId?]
+$memberJoinPosition[userId?;сервер?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $memberJoinPosition[userId?;guildId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | userId |  |  | Нет | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$memberJoinPosition',
   code: `
-$memberJoinPosition[userId?;guildId?]`
+$memberJoinPosition[userId?;сервер?]`
 // Возвращает: ...
 })
 ```

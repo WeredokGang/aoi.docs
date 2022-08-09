@@ -1,8 +1,8 @@
 # channelPinsUpdate
-desc
+Срабатывает на обновление закрепленных сообщений в канале любого типа: текстовый или ветка
 ### Использование
 ```php
-bot.onchannelPinsUpdate()
+bot.onChannelPinsUpdate()
 bot.channelPinsUpdateCommand
 ```
 ## Пример(ы)
@@ -10,8 +10,9 @@ bot.channelPinsUpdateCommand
 ```javascript
 bot.channelPinsUpdatecommand({
   name: 'channelPinsUpdate',
-  code: `
+  code: `В канале $channelName появилось новое о закрепленные сообщение:
+  Автор: $userTag
+  Сообщение: $message
 `
-// Возвращает: ...
 })
 ```

@@ -1,8 +1,8 @@
 # emojiDelete
-desc
+Срабатывает при удалении эмоджи на сервере
 ### Использование
 ```php
-bot.onemojiDelete()
+bot.onEmojiDelete()
 bot.emojiDeleteCommand
 ```
 ## Пример(ы)
@@ -10,8 +10,8 @@ bot.emojiDeleteCommand
 ```javascript
 bot.emojiDeletecommand({
   name: 'emojiDelete',
-  code: `
+  code: `На сервере $serverName был удалён эмоджи
 `
-// Возвращает: ...
 })
 ```
+###### Мало информации

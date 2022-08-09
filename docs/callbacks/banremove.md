@@ -1,8 +1,8 @@
 # banRemove
-desc
+Срабатывает когда разравнивается человек на сервере
 ### Использование
 ```php
-bot.onbanRemove()
+bot.onBanRemove()
 bot.banRemoveCommand
 ```
 ## Пример(ы)
@@ -10,8 +10,9 @@ bot.banRemoveCommand
 ```javascript
 bot.banRemovecommand({
   name: 'banRemove',
-  code: `
+  code: `Пользователь $usertag был разбанен на сервере $serverName
+  $dm[$botownerid]
 `
-// Возвращает: ...
+
 })
 ```

@@ -1,8 +1,8 @@
 # emojiUpdate
-desc
+Срабатывает когда обновляется эмоджи на сервере
 ### Использование
 ```php
-bot.onemojiUpdate()
+bot.onEmojiUpdate()
 bot.emojiUpdateCommand
 ```
 ## Пример(ы)
@@ -10,8 +10,8 @@ bot.emojiUpdateCommand
 ```javascript
 bot.emojiUpdatecommand({
   name: 'emojiUpdate',
-  code: `
+  code: `На сервере $serverName был обновлён эмоджи
 `
-// Возвращает: ...
 })
 ```
+###### Мало информации

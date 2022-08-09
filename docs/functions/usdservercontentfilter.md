@@ -2,21 +2,21 @@
 desc
 ### Использование
 ```php
-$serverContentFilter[guildId?]
+$serverContentFilter[сервер?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет |  
+| сервер |  |  | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$serverContentFilter',
   code: `
-$serverContentFilter[guildId?]`
+$serverContentFilter[сервер?]`
 // Возвращает: ...
 })
 ```

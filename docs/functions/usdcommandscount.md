@@ -1,8 +1,8 @@
 # $commandsCount
-desc
+Возвращает количество каналов в текущем боте
 ### Использование
 ```php
-$commandsCountnull
+$commandsCount
 ```
 
 ## Пример(ы)
@@ -11,7 +11,7 @@ $commandsCountnull
 bot.command({
   name: '$commandsCount',
   code: `
-$commandsCountnull`
-// Возвращает: ...
+$commandsCount`
+// Возвращает: 721
 })
 ```

@@ -1,5 +1,5 @@
 # $channelCategoryID
-desc
+
 ### Использование
 ```php
 $channelCategoryID[channelID?]

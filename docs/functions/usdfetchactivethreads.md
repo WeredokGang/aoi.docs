@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$fetchActiveThreads[channelId?;...options]
+$fetchActiveThreads[канал?;...options]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| channelId |  |  | Нет | 
+| канал |  |  | Нет | 
 | ...options |  |  | Да | 
 ## Пример(ы)
 
@@ -17,7 +17,7 @@ $fetchActiveThreads[channelId?;...options]
 bot.command({
   name: '$fetchActiveThreads',
   code: `
-$fetchActiveThreads[channelId?;...options]`
+$fetchActiveThreads[канал?;...options]`
 // Возвращает: ...
 })
 ```

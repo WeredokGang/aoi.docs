@@ -1,5 +1,5 @@
 # roleDelete
-desc
+Сообщает об удалении роли
 ### Использование
 ```php
 bot.onroleDelete()
@@ -10,8 +10,9 @@ bot.roleDeleteCommand
 ```javascript
 bot.roleDeletecommand({
   name: 'roleDelete',
-  code: `
+  code: `Была удалена роль: $oldRole[name]
+$dm[$botOwnerID]
 `
-// Возвращает: ...
+// Возвращает: Была удалена роль: Deglas Gay
 })
 ```

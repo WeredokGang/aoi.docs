@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$serverChannelExists[channel;guildId?]
+$serverChannelExists[channel;сервер?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $serverChannelExists[channel;guildId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | channel |  |  | Да | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$serverChannelExists',
   code: `
-$serverChannelExists[channel;guildId?]`
+$serverChannelExists[channel;сервер?]`
 // Возвращает: ...
 })
 ```

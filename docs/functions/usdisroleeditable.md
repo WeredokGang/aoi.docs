@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$isRoleEditable[roleId;guildId?]
+$isRoleEditable[roleId;сервер?]
 ```
 
 ### Опции
@@ -10,14 +10,14 @@ $isRoleEditable[roleId;guildId?]
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
 | roleId |  |  | Да | 
-| guildId |  |  | Нет | 
+| сервер |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$isRoleEditable',
   code: `
-$isRoleEditable[roleId;guildId?]`
+$isRoleEditable[roleId;сервер?]`
 // Возвращает: ...
 })
 ```

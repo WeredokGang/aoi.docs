@@ -1,8 +1,8 @@
 # emojiCreate
-desc
+Срабатывает когда на сервере создаётся эмоджи любого типа: анимированные или обычные 
 ### Использование
 ```php
-bot.onemojiCreate()
+bot.onEmojiCreate()
 bot.emojiCreateCommand
 ```
 ## Пример(ы)
@@ -10,8 +10,8 @@ bot.emojiCreateCommand
 ```javascript
 bot.emojiCreatecommand({
   name: 'emojiCreate',
-  code: `
+  code: `На сервере $serverName был создан новый эмоджи
 `
-// Возвращает: ...
 })
 ```
+###### Мало информации

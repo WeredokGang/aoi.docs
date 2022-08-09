@@ -1,22 +1,22 @@
 # $checkCondition
-desc
+Возвращает логическое выражение если условие правильное
 ### Использование
 ```php
-$checkCondition[condition]
+$checkCondition[условие]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| condition |  |  | Да |  
+| условие | условие для проверки | условие | Да |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$checkCondition',
   code: `
-$checkCondition[condition]`
-// Возвращает: ...
+$checkCondition[2==4]`
+// Возвращает: false
 })
 ```

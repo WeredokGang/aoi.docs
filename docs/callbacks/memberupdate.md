@@ -1,8 +1,8 @@
 # memberUpdate
-desc
+Срабатывает когда участник обновляет свой профиль на сервере: никнейм, баннер, аватар или роли
 ### Использование
 ```php
-bot.onmemberUpdate()
+bot.onМemberUpdate()
 bot.memberUpdateCommand
 ```
 ## Пример(ы)
@@ -10,8 +10,8 @@ bot.memberUpdateCommand
 ```javascript
 bot.memberUpdatecommand({
   name: 'memberUpdate',
-  code: `
+  code: `На сервере $serverName участник $username обновил свой профиль
+  $dm[$botOwnerId]
 `
-// Возвращает: ...
 })
 ```

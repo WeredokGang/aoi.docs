@@ -2,21 +2,21 @@
 desc
 ### Использование
 ```php
-$serverPreferredLocale[guildId?]
+$serverPreferredLocale[сервер?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Нет |  
+| сервер |  |  | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$serverPreferredLocale',
   code: `
-$serverPreferredLocale[guildId?]`
+$serverPreferredLocale[сервер?]`
 // Возвращает: ...
 })
 ```

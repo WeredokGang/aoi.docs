@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$modifyWebhook[webhookId;name;avatar;channelId?;reason]
+$modifyWebhook[webhookId;name;avatar;канал?;reason]
 ```
 
 ### Опции
@@ -12,7 +12,7 @@ $modifyWebhook[webhookId;name;avatar;channelId?;reason]
 | webhookId |  |  | Да | 
 | name |  |  | Да | 
 | avatar |  |  | Да |
-| channelId |  |  | Нет |
+| канал |  |  | Нет |
 | reason |  |  | Да |
 ## Пример(ы)
 
@@ -20,7 +20,7 @@ $modifyWebhook[webhookId;name;avatar;channelId?;reason]
 bot.command({
   name: '$modifyWebhook',
   code: `
-$modifyWebhook[webhookId;name;avatar;channelId?;reason]`
+$modifyWebhook[webhookId;name;avatar;канал?;reason]`
 // Возвращает: ...
 })
 ```

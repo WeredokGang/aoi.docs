@@ -2,22 +2,22 @@
 desc
 ### Использование
 ```php
-$pinMessage[messageId?;channelId?]
+$pinMessage[сообщение?;канал?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| messageId |  |  | Нет | 
-| channelId |  |  | Нет | 
+| сообщение |  |  | Нет | 
+| канал |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$pinMessage',
   code: `
-$pinMessage[messageId?;channelId?]`
+$pinMessage[сообщение?;канал?]`
 // Возвращает: ...
 })
 ```

@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$getUserVar[varname;userId?;guildId?;table?]
+$getUserVar[varname;userId?;сервер?;table?]
 ```
 
 ### Опции
@@ -11,7 +11,7 @@ $getUserVar[varname;userId?;guildId?;table?]
 |--------|-------------|------|----------|
 | varname |  |  | Да | 
 | userId |  |  | Нет | 
-| guildId |  |  | Нет |
+| сервер |  |  | Нет |
 | table |  |  | Нет |
 ## Пример(ы)
 
@@ -19,7 +19,7 @@ $getUserVar[varname;userId?;guildId?;table?]
 bot.command({
   name: '$getUserVar',
   code: `
-$getUserVar[varname;userId?;guildId?;table?]`
+$getUserVar[varname;userId?;сервер?;table?]`
 // Возвращает: ...
 })
 ```

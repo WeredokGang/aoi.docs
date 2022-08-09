@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$modifyRolePerms[guildId;roleId;...perms]
+$modifyRolePerms[сервер;roleId;...perms]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Да | 
+| сервер |  |  | Да | 
 | roleId |  |  | Да | 
 | ...perms |  |  | Да |
 ## Пример(ы)
@@ -18,7 +18,7 @@ $modifyRolePerms[guildId;roleId;...perms]
 bot.command({
   name: '$modifyRolePerms',
   code: `
-$modifyRolePerms[guildId;roleId;...perms]`
+$modifyRolePerms[сервер;roleId;...perms]`
 // Возвращает: ...
 })
 ```

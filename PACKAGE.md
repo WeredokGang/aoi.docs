@@ -9,13 +9,13 @@
 
 <div align="center">
 
-**Продвинутый и мощный инструмент для создания вашего бота.**
+**Продвинутый инструмент для создания вашего бота на node.js.**
     
 [![NPM версия][npm-image]][npm-url]
 [![AoiJS сервер][aoijs-server]][aoijs-server-url]
 [![NPM установки][download-image]][download-url]
 
-Заменитель [dbd.js](https://www.npmjs.com/package/dbd.js)
+**Заменитель библиотеки [dbd.js](https://www.npmjs.com/package/dbd.js)**
 
 [npm-image]: http://img.shields.io/npm/v/aoi.js.svg?style=flat-square
 [npm-url]: http://npmjs.org/package/aoi.js
@@ -35,7 +35,7 @@
  
 ## Установка
 
-**Node.JS 16.6.0 или выше необходим.**  
+**Node.JS версии 16.6.0 или выше необходим для работы с пакетом.**  
 
 
 ```bash
@@ -47,6 +47,7 @@ yarn add aoi.js
 ```
 
 ## Пример использования
+### Главный файл
 ```javascript
 const aoijs = require("aoi.js")
 

@@ -2,14 +2,14 @@
 desc
 ### Использование
 ```php
-$hasAnyPerm[guildId;userId;...perms]
+$hasAnyPerm[сервер;userId;...perms]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| guildId |  |  | Да | 
+| сервер |  |  | Да | 
 | userId |  |  | Да | 
 | ...perms |  |  | Да |
 ## Пример(ы)
@@ -18,7 +18,7 @@ $hasAnyPerm[guildId;userId;...perms]
 bot.command({
   name: '$hasAnyPerm',
   code: `
-$hasAnyPerm[guildId;userId;...perms]`
+$hasAnyPerm[сервер;userId;...perms]`
 // Возвращает: ...
 })
 ```

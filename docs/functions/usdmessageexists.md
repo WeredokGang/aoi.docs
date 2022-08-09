@@ -2,22 +2,22 @@
 desc
 ### Использование
 ```php
-$messageExists[messageId;channelId?]
+$messageExists[сообщение;канал?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| messageId |  |  | Да | 
-| channelId |  |  | Нет | 
+| сообщение |  |  | Да | 
+| канал |  |  | Нет | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$messageExists',
   code: `
-$messageExists[messageId;channelId?]`
+$messageExists[сообщение;канал?]`
 // Возвращает: ...
 })
 ```
