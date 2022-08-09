@@ -1,5 +1,5 @@
 # $editChannel
-desc
+Изменяет канал
 ### Использование
 ```php
 $editChannel[канал;...fields]
