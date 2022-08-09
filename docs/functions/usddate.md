@@ -1,8 +1,8 @@
 # $date
-desc
+Возвращает текущий день
 ### Использование
 ```php
-$datenull
+$date
 ```
 
 ## Пример(ы)
@@ -11,7 +11,7 @@ $datenull
 bot.command({
   name: '$date',
   code: `
-$datenull`
-// Возвращает: ...
+$date`
+// Возвращает: 7
 })
 ```

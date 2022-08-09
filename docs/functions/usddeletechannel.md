@@ -1,22 +1,21 @@
 # $deleteChannel
-desc
+Удаляет указанный канал
 ### Использование
 ```php
-$deleteChannel[channel]
+$deleteChannel[канал]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| channel |  |  | Да |  
+| канал | канал, который нужно удалить | айди | Да |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$deleteChannel',
   code: `
-$deleteChannel[channel]`
-// Возвращает: ...
+$deleteChannel[$mentionedChannels]`
 })
 ```

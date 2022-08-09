@@ -1,23 +1,22 @@
 # $deleteWebhook
-desc
+Удаляет вебхук
 ### Использование
 ```php
-$deleteWebhook[id;token]
+$deleteWebhook[айди;токен]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| id |  |  | Да | 
-| token |  |  | Да | 
+| айди | айди вебхука | айди | Да | 
+| токен | токен вебхука | текст | Да | 
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$deleteWebhook',
   code: `
-$deleteWebhook[id;token]`
-// Возвращает: ...
+$deleteWebhook[$message[1];$message[2]]`
 })
 ```

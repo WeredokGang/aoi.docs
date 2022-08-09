@@ -1,22 +1,23 @@
 # $description
-desc
+Создаёт описание в встроенном сообщении (эмбед)
 ### Использование
 ```php
-$descriptionUsage Not Found
+$description[индекс?;текст]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| Usage Not Found |  |  | Да |  
+| индекс | индекс встроенного сообщения | число | Да |  
+| текст | текст для описания | текст | Да |  
+
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$description',
   code: `
-$descriptionUsage Not Found`
-// Возвращает: ...
+$description[1;$message]`
 })
 ```

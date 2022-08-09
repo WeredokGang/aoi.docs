@@ -1,8 +1,8 @@
 # $dbPing
-desc
+Возвращает пинг получения данных из базы данных переменных
 ### Использование
 ```php
-$dbPingnull
+$dbPing
 ```
 
 ## Пример(ы)
@@ -11,7 +11,7 @@ $dbPingnull
 bot.command({
   name: '$dbPing',
   code: `
-$dbPingnull`
-// Возвращает: ...
+$dbPing`
+// Возвращает: 0
 })
 ```
