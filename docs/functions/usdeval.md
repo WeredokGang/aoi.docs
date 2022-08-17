@@ -1,17 +1,17 @@
 # $eval
-desc
+Выполняет указанный код в среде aoi.js. Внимание: ограничьте использование этой функции только для себя, чтобы не возникало проблем с ботом или его сервером.
 ### Использование
 ```php
-$eval[Code;returnCode?;sendMessage?;returnExecution?;returnId?]
+$eval[код;вернутьКод?;вернутьРезультат?;returnExecution?;returnId?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| Code |  |  | Да | 
-| returnCode |  |  | Нет | 
-| sendMessage |  |  | Нет |
+| код |  |  | Да | 
+| вернутьКод |  |  | Нет | 
+| вернутьРезультат |  |  | Нет |
 | returnExecution |  |  | Нет |
 | returnId |  |  | Нет |
 ## Пример(ы)
@@ -20,7 +20,7 @@ $eval[Code;returnCode?;sendMessage?;returnExecution?;returnId?]
 bot.command({
   name: '$eval',
   code: `
-$eval[Code;returnCode?;sendMessage?;returnExecution?;returnId?]`
+$eval[код;вернутьКод?;вернутьРезультат?;returnExecution?;returnId?]`
 // Возвращает: ...
 })
 ```
