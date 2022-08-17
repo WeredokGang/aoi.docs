@@ -1,22 +1,22 @@
 # $disableMentionType
-desc
+Отключает упоминания определённого типа в сообщении бота о
 ### Использование
 ```php
-$disableMentionType[type?]
+$disableMentionType[тип?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| type |  |  | Нет |  
+| тип | тип упоминания (user, role, channel, everyone) | текст | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$disableMentionType',
-  code: `
-$disableMentionType[type?]`
-// Возвращает: ...
+  code: ` @everyone
+$disableMentionType[everyone]`
+// Возвращает: @everyone
 })
 ```

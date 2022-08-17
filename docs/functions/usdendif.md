@@ -1,8 +1,8 @@
 # $endif
-desc
+Завершает блок с $if: "v4"
 ### Использование
 ```php
-$endifnull
+$endif
 ```
 
 ## Пример(ы)
@@ -10,8 +10,10 @@ $endifnull
 ```javascript
 bot.command({
   name: '$endif',
-  code: `
-$endifnull`
-// Возвращает: ...
+  $if: 'v4',
+  code: `$if[1==1]
+  Да.
+$endif`
+// Возвращает: Да.
 })
 ```

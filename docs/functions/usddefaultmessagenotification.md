@@ -1,5 +1,5 @@
 # $defaultMessageNotification
-desc
+Устанавливает настройки уведомлений по умолчанию на указанном сервере
 ### Использование
 ```php
 $defaultMessageNotification[сервер?]
@@ -9,14 +9,14 @@ $defaultMessageNotification[сервер?]
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| сервер |  |  | Нет |  
+| сервер | сервер, на котором нужно сбросить настройки уведомлений | айди | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$defaultMessageNotification',
   code: `
-$defaultMessageNotification[сервер?]`
-// Возвращает: ...
+$defaultMessageNotification`
+// Возвращает: 
 })
 ```
