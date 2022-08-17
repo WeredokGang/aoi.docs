@@ -1,8 +1,8 @@
 # $deleteCommand
-desc
+Удаляет сообщение, которое вызвало функцию
 ### Использование
 ```php
-$deleteCommandnull
+$deleteCommand
 ```
 
 ## Пример(ы)
@@ -11,7 +11,6 @@ $deleteCommandnull
 bot.command({
   name: '$deleteCommand',
   code: `
-$deleteCommandnull`
-// Возвращает: ...
+$deleteCommand`
 })
 ```

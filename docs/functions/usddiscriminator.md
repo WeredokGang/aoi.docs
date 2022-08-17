@@ -1,22 +1,22 @@
 # $discriminator
-desc
+Возвращает тег пользователя
 ### Использование
 ```php
-$discriminator[userId?]
+$discriminator[пользователь?]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| userId |  |  | Нет |  
+| пользователь | пользователь, тег которого нужно получить | айди | Нет |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$discriminator',
   code: `
-$discriminator[userId?]`
-// Возвращает: ...
+$discriminator[$authorId]`
+// Возвращает: 4565
 })
 ```

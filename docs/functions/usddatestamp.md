@@ -1,8 +1,8 @@
 # $datestamp
-desc
+Возвращает текущее время в миллисекундах
 ### Использование
 ```php
-$datestampnull
+$datestamp
 ```
 
 ## Пример(ы)
@@ -11,7 +11,7 @@ $datestampnull
 bot.command({
   name: '$datestamp',
   code: `
-$datestampnull`
-// Возвращает: ...
+$datestamp`
+// Возвращает: 16467939761
 })
 ```

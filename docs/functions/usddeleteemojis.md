@@ -1,22 +1,21 @@
 # $deleteEmojis
-desc
+Удаляет указанные эмоджи
 ### Использование
 ```php
-$deleteEmojis[...emojis]
+$deleteEmojis[...эмоджи]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| ...emojis |  |  | Да |  
+| ...эмоджи | эмоджи, которые нужно удалить | перечисление | Да |  
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$deleteEmojis',
   code: `
-$deleteEmojis[...emojis]`
-// Возвращает: ...
+$deleteEmojis[$message[1];$message[2]]`
 })
 ```
