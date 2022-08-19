@@ -14,5 +14,3 @@
 * Классы
   * [Голосовой](classes/voice.md)
   * [Загрузчик команд](classes/command-handler.md)
-  * [Пользовательские события](classes/custom-events.md)
-  * [Пользовательские ошибки](classes/AoiError.md)
